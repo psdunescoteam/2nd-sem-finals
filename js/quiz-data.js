@@ -4576,6 +4576,32 @@ const generalPhysicsQuestions = [
     ],
     "correct": 3,
     "explanation": "In standard scientific notation and the PPTs, 'm' (milli) is $10^{-3}$, not $10^{-5}$."
+  },
+    {
+    "id": 51,
+    "question": "Which statement describes the image below?",
+    "image": "images/Physics/Physics 1.png",
+    "options": [
+      "For two unlike charges, the electric field lines starts from positive charge and ends to negative charge.",
+      "The electric field of a single positively charged particle extend to infinity.",
+      "The further the electric field lines from the charge is the weaker/shorter the electric field gets.",
+      "The field electric of a negatively charged particle is always towards the charge."
+    ],
+    "correct": 0,
+    "explanation": "The image shows electric field lines originating from a positive charge and terminating on a negative charge, illustrating the attraction between opposite charges."
+  },
+  {
+    "id": 52,
+    "question": "Which statement describes the image below?",
+    "image": "images/Physics/Physics 2.svg",
+    "options": [
+      "The electric field of a single positively charged particle extend to infinity.",
+      "The field electric charge of positively charged particle is always away the charge.",
+      "The further the electric field lines from the charge is the weaker/shorter the electric field gets.",
+      "The field electric of a negatively charged particle is always towards the charge."
+    ],
+    "correct": 1,
+    "explanation": "The image depicts electric field lines radiating outward from a positive charge, demonstrating that the field lines for a positive charge point away from it."
   }
 ];
 
