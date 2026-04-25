@@ -5908,3 +5908,487 @@ const basicCalculusQuestions = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { workImmersionQuestions, generalChemistryQuestions, contemporaryArtsQuestions, empowermentTechnologiesQuestions, generalMathematicsQuestions, physicalEducationQuestions, generalPhysicsQuestions, philosophyQuestions, basicCalculusQuestions };
 }
+
+
+const filipinoQuestions = [
+  {
+    "id": 1,
+    "question": "Ayon sa etimolohiya, ang salitang 'sanaysay' ay hango sa salitang Pranses na 'essayer'. Ano ang literal na kahulugan nito?",
+    "options": [
+      "Magsulat ng kasaysayan",
+      "Sumubok o tangkilikin",
+      "Maglahad ng katotohanan",
+      "Mag-isip nang malalim"
+    ],
+    "correct": 1,
+    "explanation": "Ang salitang 'sanaysay' ay nanggaling sa Pranses na 'essayer' na ang ibig sabihin ay sumubok o tangkilikin."
+  },
+  {
+    "id": 2,
+    "question": "Sino ang pilosopong naniniwala na ang sanaysay ay isang kasangkapan upang isatinig ang maikling pagbubulay-bulay at komentaryo sa buhay?",
+    "options": [
+      "Michael de Montaigne",
+      "Paquito Badayos",
+      "Francis Bacon",
+      "Alejandro Abadilla"
+    ],
+    "correct": 2,
+    "explanation": "Ayon kay Francis Bacon, ang sanaysay ay medium para sa maikling pagbubulay-bulay at komentaryo sa buhay."
+  },
+  {
+    "id": 3,
+    "question": "Paano binigyang-depinisyon ni Paquito Badayos ang sanaysay?",
+    "options": [
+      "Ito ay paglalahad ng mga legal na dokumento.",
+      "Ito ay paglalahad ng sariling opinyon, pananaw, at kaisipan ng sumusulat.",
+      "Ito ay isang sining ng pagtatalumpati sa harap ng publiko.",
+      "Ito ay isang listahan ng mga paksang tatalakayin sa pulong."
+    ],
+    "correct": 1,
+    "explanation": "Binigyang-diin ni Badayos na ang sanaysay ay naglalaman ng sariling pananaw at kaisipan ng manunulat."
+  },
+  {
+    "id": 4,
+    "question": "Ayon kay Michael Stratford, ang replektibong sanaysay ay isang uri ng pagsasanay sa ________.",
+    "options": [
+      "Edisyon ng balita",
+      "Pagsulat ng talambuhay",
+      "Introspeksyon",
+      "Pagbuo ng adyenda"
+    ],
+    "correct": 2,
+    "explanation": "Ayon kay Stratford, ang replektibong sanaysay ay may kinalaman sa introspeksyon na pagsasanay."
+  },
+  {
+    "id": 5,
+    "question": "Sino ang nagsabi na ang replektibong sanaysay ay nagpapakita ng paglago ng isang tao mula sa isang mahalagang karanasan o pangyayari?",
+    "options": [
+      "Kori Morgan",
+      "Darwin Bargo",
+      "Ma. Rovilla Sudprasert",
+      "Jose Arrogante"
+    ],
+    "correct": 0,
+    "explanation": "Ayon kay Kori Morgan, ang replektibong sanaysay ay nagpapakita ng personal na paglago ng isang indibidwal."
+  },
+  {
+    "id": 6,
+    "question": "Alin sa mga sumusunod ang pangunahing layunin ng 'Paglalahad'?",
+    "options": [
+      "Magkuwento ng mga kathang-isip na pangyayari.",
+      "Magbigay ng detalyado at komprehensibong pagpapaliwanag ng isang bagay, pook, o ideya.",
+      "Mangumbinsi ng mga tao na maniwala sa isang panig.",
+      "Maglarawan ng mga emosyon gamit ang mga talinghaga."
+    ],
+    "correct": 1,
+    "explanation": "Ang paglalahad ay sining ng detalyado at komprehensibong pagpapaliwanag upang magbigay-linaw."
+  },
+  {
+    "id": 7,
+    "question": "Anong bahagi ng sanaysay ang dapat makapukaw sa damdamin ng mga mambabasa?",
+    "options": [
+      "Katawan",
+      "Kongklusyon",
+      "Panimula",
+      "Talindaw"
+    ],
+    "correct": 2,
+    "explanation": "Ang panimula ay dapat makatawag-pansin o makapukaw sa damdamin ng mambabasa ayon sa reviewer."
+  },
+  {
+    "id": 8,
+    "question": "Sa pagsulat ng katawan ng sanaysay, ano ang dapat bigyang-diin ng manunulat?",
+    "options": [
+      "Ang paglalagay ng mga adyenda ng pulong.",
+      "Ang pagpapaliwanag at pagtalakay sa mga kaisipan o karanasan.",
+      "Ang paghingi ng paumanhin sa mga mambabasa.",
+      "Ang paglilista ng mga pangalan ng dumalo sa pagpupulong."
+    ],
+    "correct": 1,
+    "explanation": "Sa katawan inilalahad ang mga paliwanag at pagtalakay sa paksa ng sanaysay."
+  },
+  {
+    "id": 9,
+    "question": "Ano ang pangunahing nilalaman ng kongklusyon ng isang replektibong sanaysay?",
+    "options": [
+      "Isang panibagong paksa na hindi natalakay sa katawan.",
+      "Reiterasyon o pagbabahagi ng mga natutuhan at realisasyon.",
+      "Ang petsa at oras kung kailan natapos ang pagsulat.",
+      "Ang lagda ng taong nag-utos ng pagsulat."
+    ],
+    "correct": 1,
+    "explanation": "Ang kongklusyon ay naglalaman ng mga natutuhan at mahalagang realisasyon mula sa karanasan."
+  },
+  {
+    "id": 10,
+    "question": "Ayon kay Ma. Rovilla Sudprasert, ano ang kahulugan ng memorandum?",
+    "options": [
+      "Ito ay isang tula tungkol sa trabaho.",
+      "Ito ay kasulatang nagbibigay kabatiran tungkol sa gagawing pulong o paalala sa mahalagang impormasyon.",
+      "Ito ay talaan ng mga napag-usapan sa loob ng isang organisasyon.",
+      "Ito ay isang uri ng sanaysay tungkol sa karanasan sa opisina."
+    ],
+    "correct": 1,
+    "explanation": "Ayon kay Sudprasert, ang memo ay nagbibigay-impormasyon o babala tungkol sa isang gawain o utos."
+  },
+  {
+    "id": 11,
+    "question": "Sa anong aklat binanggit ni Darwin Bargo ang tungkol sa paggamit ng 'colored stationery' para sa memorandum?",
+    "options": [
+      "Sining ng Paglalahad",
+      "Writing in the Discipline",
+      "Komunikasyon sa Akademikong Filipino",
+      "The Art of Writing Memorandums"
+    ],
+    "correct": 1,
+    "explanation": "Binanggit ni Darwin Bargo sa kanyang aklat na 'Writing in the Discipline' ang paggamit ng kulay sa stationery."
+  },
+  {
+    "id": 12,
+    "question": "Anong kulay ng stationery ang ginagamit para sa mga memo na nagmumula sa marketing at accounting department?",
+    "options": [
+      "Puti",
+      "Dilaw o Luntian",
+      "Pink o Rosas",
+      "Asul"
+    ],
+    "correct": 2,
+    "explanation": "Ang pink o rosas na stationery ay nakatalaga para sa marketing at accounting departments."
+  },
+  {
+    "id": 13,
+    "question": "Anong kulay ng stationery ang karaniwang ginagamit para sa mga general memo?",
+    "options": [
+      "Puti",
+      "Dilaw o Luntian",
+      "Pink o Rosas",
+      "Pula"
+    ],
+    "correct": 1,
+    "explanation": "Ang dilaw o luntian (green) ay ginagamit para sa mga general memo."
+  },
+  {
+    "id": 14,
+    "question": "Kailan ginagamit ang puting stationery para sa isang memorandum?",
+    "options": [
+      "Para sa mga utos mula sa CEO lamang.",
+      "Para sa mga pangkalahatang kautusan o paalala.",
+      "Para sa marketing department.",
+      "Para sa sining ng paglalahad."
+    ],
+    "correct": 1,
+    "explanation": "Ang puting stationery ay ginagamit para sa mga pangkalahatang kautusan, direktiba, o paalala."
+  },
+  {
+    "id": 15,
+    "question": "Anong bahagi ng memo ang naglalaman ng pangalan ng organisasyon, logo, at numero ng telepono?",
+    "options": [
+      "Heading",
+      "Letterhead / Header",
+      "Mensahe",
+      "Lagda"
+    ],
+    "correct": 1,
+    "explanation": "Ang letterhead o header ay naglalaman ng pagkakakilanlan ng kompanya o organisasyon."
+  },
+  {
+    "id": 16,
+    "question": "Sa bahagi ng memo na 'Para sa/Kay/Kina', ano ang dapat isulat kung ang memo ay para sa isang partikular na grupo?",
+    "options": [
+      "Ang pangalan ng organisasyon lamang.",
+      "Ang pangalan ng tao o grupong pinag-uukulan ng memo.",
+      "Ang pangalan ng sekretarya.",
+      "Ang petsa ng pulong."
+    ],
+    "correct": 1,
+    "explanation": "Ang linyang 'Para sa' ay nagpapakita kung sino ang tatanggap ng memorandum."
+  },
+  {
+    "id": 17,
+    "question": "Ano ang tamang paraan ng pagsulat ng 'Paksa' sa isang memorandum?",
+    "options": [
+      "Dapat itong maging mahaba at parang isang talata.",
+      "Dapat itong maging maikli, malinaw, at tuwiran.",
+      "Dapat itong isulat sa wikang Ingles lamang.",
+      "Dapat itong ilagay sa pinakailalim ng papel."
+    ],
+    "correct": 1,
+    "explanation": "Ang paksa ay dapat maikli at malinaw upang agad na malaman ang layunin ng memo."
+  },
+  {
+    "id": 18,
+    "question": "Saan inilalagay ang lagda ng nagpadala ng memo sa isang pormal na format?",
+    "options": [
+      "Sa kaliwang bahagi ng header.",
+      "Sa likod ng stationery.",
+      "Sa itaas ng kanyang nakalimbag na pangalan sa bahaging 'Mula Kay'.",
+      "Sa gilid ng petsa."
+    ],
+    "correct": 2,
+    "explanation": "Ang lagda ay inilalagay sa itaas ng nakalimbag na pangalan upang mapatunayan ang awtentisidad nito."
+  },
+  {
+    "id": 19,
+    "question": "Alin sa mga sumusunod ang HINDI katangian ng isang mahusay na mensahe sa memo?",
+    "options": [
+      "Maikli at tuwiran.",
+      "Naglalaman ng detalyadong paliwanag kung bakit kinakailangan ang utos.",
+      "Gumagamit ng mga mabulaklak na salita upang maging magalang.",
+      "Malinaw ang inaasahang aksyon mula sa kawani."
+    ],
+    "correct": 2,
+    "explanation": "Ang memo ay dapat tuwiran at hindi na nangangailangan ng mabulaklak na pananalita."
+  },
+  {
+    "id": 20,
+    "question": "Ano ang tawag sa roadmap ng mga paksang tatalakayin sa isang pulong?",
+    "options": [
+      "Katitikan ng Pulong",
+      "Adyenda",
+      "Memorandum",
+      "Sining ng Paglalahad"
+    ],
+    "correct": 1,
+    "explanation": "Ang adyenda ay nagsisilbing gabay o listahan ng mga layuning tatalakayin sa pulong."
+  },
+  {
+    "id": 21,
+    "question": "Sino ang karaniwang responsable sa pagbuo ng adyenda kasama ang mga pinuno ng organisasyon?",
+    "options": [
+      "Ang lahat ng miyembro",
+      "Ang ingat-yaman",
+      "Ang sekretarya",
+      "Ang mga panauhin"
+    ],
+    "correct": 2,
+    "explanation": "Karaniwang ang sekretarya o ang tagapanguna ang bumubuo ng adyenda."
+  },
+  {
+    "id": 22,
+    "question": "Bakit mahalaga ang pagkakaroon ng adyenda bago ang pulong?",
+    "options": [
+      "Upang malaman kung sino ang hindi makakarating.",
+      "Upang manatiling nakapokus sa mga paksang dapat pag-usapan at hindi masayang ang oras.",
+      "Upang magsilbing attendance sheet.",
+      "Upang malaman ang budget ng organisasyon."
+    ],
+    "correct": 1,
+    "explanation": "Ang adyenda ay tinitiyak na ang pulong ay organisado at nakatutok sa mga itinakdang layunin."
+  },
+  {
+    "id": 23,
+    "question": "Ano ang 'Katitikan ng Pulong'?",
+    "options": [
+      "Isang listahan ng mga pagkain sa pulong.",
+      "Ang opisyal na tala ng isang pulong na nagsisilbing ebidensya ng mga napag-usapan.",
+      "Isang memorandum para sa mga empleyado.",
+      "Isang sanaysay tungkol sa damdamin ng mga kalahok sa pulong."
+    ],
+    "correct": 1,
+    "explanation": "Ang katitikan ay ang permanenteng record ng mga desisyon at diskusyong naganap sa pulong."
+  },
+  {
+    "id": 24,
+    "question": "Anong bahagi ng katitikan ang naglalaman ng pangalan ng organisasyon, uri ng pulong, petsa, at lugar?",
+    "options": [
+      "Heading",
+      "Mga Kalahok",
+      "Action Items",
+      "Pagtatapos"
+    ],
+    "correct": 0,
+    "explanation": "Ang heading ay naglalaman ng mga batayang impormasyon tungkol sa pulong gaya ng petsa at lugar."
+  },
+  {
+    "id": 25,
+    "question": "Sa bahagi ng 'Mga Kalahok', sino ang unang inililista sa katitikan?",
+    "options": [
+      "Ang sekretarya",
+      "Ang mga nahuli sa pulong",
+      "Ang tagapangulo o chairperson",
+      "Ang mga hindi nakadalo"
+    ],
+    "correct": 2,
+    "explanation": "Inililista ang mga dumalo ayon sa pagkakasunod-sunod ng kanilang katungkulan, simula sa tagapangulo."
+  },
+  {
+    "id": 26,
+    "question": "Ano ang layunin ng bahaging 'Pagbasa at Pagpapatibay ng Nagdaang Katitikan'?",
+    "options": [
+      "Upang magsimula ng bagong away.",
+      "Upang tiyaking wasto ang mga naitala sa nakaraang pulong bago magpatuloy.",
+      "Upang bigyan ng parangal ang sekretarya.",
+      "Upang magpalipas ng oras habang naghihintay ng iba."
+    ],
+    "correct": 1,
+    "explanation": "Ginagawa ito upang itama ang anumang pagkakamali sa nakaraang record."
+  },
+  {
+    "id": 27,
+    "question": "Ano ang ibig sabihin ng 'Action Items' o 'Usaping Napagkasunduan'?",
+    "options": [
+      "Listahan ng mga taong lumiban.",
+      "Mahahalagang tala hinggil sa mga paksang tinalakay at mga desisyong ginawa.",
+      "Ang oras kung kailan natapos ang pulong.",
+      "Ang lagda ng lahat ng dumalo."
+    ],
+    "correct": 1,
+    "explanation": "Dito itinatala ang mga mahahalagang puntos at mga susunod na hakbang na napagkasunduan."
+  },
+  {
+    "id": 28,
+    "question": "Sa bahagi ng 'Pagtatapos', ano ang mahalagang itala ng sekretarya?",
+    "options": [
+      "Ang kinain ng mga kalahok.",
+      "Ang oras kung kailan pormal na itinigil o winakasan ang pulong.",
+      "Ang kulay ng damit ng tagapangulo.",
+      "Ang mga pangalan ng mga hindi bumoto."
+    ],
+    "correct": 1,
+    "explanation": "Ang oras ng pagtatapos ay mahalaga para sa legalidad at dokumentasyon ng pulong."
+  },
+  {
+    "id": 29,
+    "question": "Ayon sa reviewer, kailan dapat isulat ang katitikan ng pulong?",
+    "options": [
+      "Pagkalipas ng isang linggo.",
+      "Habang nagaganap ang pulong o agad pagkatapos nito habang sariwa pa sa isip ang mga detalye.",
+      "Bago magsimula ang susunod na pulong.",
+      "Kapag hiningi na ito ng boss."
+    ],
+    "correct": 1,
+    "explanation": "Dapat itong isulat agad upang matiyak ang katumpakan ng mga impormasyon."
+  },
+  {
+    "id": 30,
+    "question": "Ang katitikan ng pulong ay dapat na maging ________, obhetibo, at komprehensibo.",
+    "options": [
+      "Mabulaklak",
+      "Pormal",
+      "Impormal",
+      "Kathang-isip"
+    ],
+    "correct": 1,
+    "explanation": "Dahil ito ay legal na dokumento, kinakailangan itong maging pormal at obhetibo."
+  },
+  {
+    "id": 31,
+    "question": "Alin sa mga sumusunod ang HINDI dapat gawin sa pagsulat ng katitikan ng pulong?",
+    "options": [
+      "Itala ang pangalan ng samahan o organisasyon.",
+      "Isama ang mga personal na opinyon o kuro-kuro ng sekretarya tungkol sa mga miyembro.",
+      "Basahing muli ang katitikan para sa huling pagwawasto.",
+      "Itala ang oras ng pagsisimula at pagtatapos."
+    ],
+    "correct": 1,
+    "explanation": "Ang katitikan ay dapat obhetibo; bawal isama ang sariling opinyon ng sumusulat."
+  },
+  {
+    "id": 32,
+    "question": "Sa 'Sining ng Paglalahad', ano ang ibig sabihin ng pagiging 'komprehensibo'?",
+    "options": [
+      "Pagbibigay ng mabilisang sulyap sa paksa.",
+      "Buo at malawak na pagpapaliwanag na sumasaklaw sa lahat ng mahahalagang aspeto.",
+      "Pagsulat gamit ang balbal na wika.",
+      "Pagguhit ng larawan sa halip na pagsulat."
+    ],
+    "correct": 1,
+    "explanation": "Ang paglalahad ay dapat sapat at malawak upang lubos na maunawaan ang paksa."
+  },
+  {
+    "id": 33,
+    "question": "Ano ang pangunahing pagkakaiba ng Memorandum sa Katitikan ng Pulong?",
+    "options": [
+      "Ang memo ay isinusulat bago ang pulong, ang katitikan ay habang o pagkatapos ng pulong.",
+      "Ang memo ay para sa labas ng organisasyon, ang katitikan ay para sa loob lamang.",
+      "Ang memo ay isang tula, ang katitikan ay isang dula.",
+      "Walang pagkakaiba ang dalawa."
+    ],
+    "correct": 0,
+    "explanation": "Ang memo ay nagsisilbing paalala o anunsyo, habang ang katitikan ay record ng mismong usapan sa pulong."
+  },
+  {
+    "id": 34,
+    "question": "Bakit itinuturing na legal na dokumento ang Katitikan ng Pulong?",
+    "options": [
+      "Dahil ito ay pirmado ng abogado.",
+      "Dahil maaari itong gamiting ebidensya sa mga usaping legal o sa pagpapatibay ng mga desisyon ng organisasyon.",
+      "Dahil ito ay binabayaran sa gobyerno.",
+      "Dahil ito ay nakasulat sa mamahaling papel."
+    ],
+    "correct": 1,
+    "explanation": "Ang katitikan ay nagsisilbing opisyal na patunay ng mga napagkasunduan sa isang pormal na pagtitipon."
+  },
+  {
+    "id": 35,
+    "question": "Ayon sa reviewer, ano ang dapat gawin bago tuluyang ipasa ang katitikan ng pulong sa kinauukulan?",
+    "options": [
+      "Ipa-print ito sa colored paper.",
+      "Ipa-check sa isang kasamahang nakadalo rin para sa pagwawasto.",
+      "Itago muna ito ng isang buwan.",
+      "I-post ito sa social media."
+    ],
+    "correct": 1,
+    "explanation": "Mahalagang ipabasa ito sa iba upang makasiguro na walang nakaligtaang puntos."
+  },
+  {
+    "id": 36,
+    "question": "Ano ang layunin ng paglalagay ng 'Heading' sa isang replektibong sanaysay o anumang akademikong sulatin?",
+    "options": [
+      "Upang magkaroon ng disenyo ang papel.",
+      "Upang magbigay ng pagkakakilanlan sa paksa at awtor.",
+      "Upang pahabain ang sulatin.",
+      "Wala itong partikular na layunin."
+    ],
+    "correct": 1,
+    "explanation": "Ang heading ay tumutulong sa organisasyon at pagkakakilanlan ng sulatin."
+  },
+  {
+    "id": 37,
+    "question": "Sa pamantayan ng pagmamarka (rubrics) na nasa reviewer, ilang puntos ang nakalaan para sa 'Nilalaman'?",
+    "options": [
+      "1 puntos",
+      "2 puntos",
+      "5 puntos",
+      "10 puntos"
+    ],
+    "correct": 1,
+    "explanation": "Ayon sa reviewer slide, ang 'Nilalaman' ay may katumbas na 2 puntos sa kabuuang 5 puntos."
+  },
+  {
+    "id": 38,
+    "question": "Ano ang ibig sabihin ng 'Pormal' na antas ng wika sa pagsulat ng akademikong sulatin gaya ng memo?",
+    "options": [
+      "Paggamit ng wikang balbal at kolokyal.",
+      "Paggamit ng mga salitang pamantayan at iniiwasan ang mga impormal na ekspresyon.",
+      "Pagsulat sa paraang tila nakikipag-usap sa kaibigan.",
+      "Paggamit ng maraming emojis."
+    ],
+    "correct": 1,
+    "explanation": "Ang akademikong pagsulat ay nangangailangan ng pormal na wika at maayos na gamit ng wika."
+  },
+  {
+    "id": 39,
+    "question": "Anong uri ng pagpupulong ang karaniwang nangangailangan ng katitikan?",
+    "options": [
+      "Kwentuhan sa kanto.",
+      "Pormal na pulong ng mga opisyal o miyembro ng isang organisasyon.",
+      "Panonood ng sine kasama ang pamilya.",
+      "Pakikipag-chat sa mga kaibigan."
+    ],
+    "correct": 1,
+    "explanation": "Ang katitikan ay ginagamit sa mga pormal na pagpupulong (lingguhan, buwanan, taunan, o espesyal)."
+  },
+  {
+    "id": 40,
+    "question": "Sino ang nagpaliwanag na ang memorandum ay isang kasulatang nagbibigay kabatiran tungkol sa tungkulin o utos?",
+    "options": [
+      "Alejandro Abadilla",
+      "Ma. Rovilla Sudprasert",
+      "Michael Stratford",
+      "Kori Morgan"
+    ],
+    "correct": 1,
+    "explanation": "Si Sudprasert ang nagbigay ng depinisyon na ang memo ay para sa kabatiran, paalala, o utos."
+  }
+];

@@ -59,7 +59,8 @@ class QuizSystem {
             'Physical-Education.html': 'physical-education',
             'General-Physics.html': 'general-physics',
             'Philosophy.html': 'philosophy',
-            'Basic-Calculus.html': 'basic-calculus'
+            'Basic-Calculus.html': 'basic-calculus',
+            'Filipino.html': 'filipino'
         };
         return subjectMap[currentPage] || 'work-immersion';
     }
@@ -77,7 +78,8 @@ class QuizSystem {
             'physical-education': physicalEducationQuestions,
             'general-physics': generalPhysicsQuestions,
             'philosophy': philosophyQuestions,
-            'basic-calculus': basicCalculusQuestions
+            'basic-calculus': basicCalculusQuestions,
+            'filipino': filipinoQuestions
         };
         return questionMap[subject] || workImmersionQuestions;
     }
