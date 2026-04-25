@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Format Math",
+			"type": "shell",
+			"command": "node format-math.js"
+		},
+		{
+			"label": "Run safe format script",
+			"type": "shell",
+			"command": "node safe-format.js"
+		}
+	]
+}
