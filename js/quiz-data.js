@@ -5794,8 +5794,8 @@ const filipinoQuestions = [
       "Pink o Rosas",
       "Asul"
     ],
-    "correct": 2,
-    "explanation": "Ang pink o rosas na stationery ay nakatalaga para sa marketing at accounting departments."
+    "correct": 1,
+    "explanation": "Ang dilaw o luntian na stationery ay nakatalaga para sa marketing at accounting departments."
   },
   {
     "id": 13,
