@@ -911,947 +911,605 @@ const workImmersionQuestions = [
 
 // General Chemistry Quiz Data - 54 Questions
 const generalChemistryQuestions = [
-      {
+  {
     "id": 1,
-    "question": "What is the smallest unit of matter that retains the identity and properties of an element?",
+    "question": "Who is the Italian physicist that invented the barometer in 1643?",
     "options": [
-      "Molecule",
-      "Atom",
-      "Proton",
-      "Ion"
+      "Robert Boyle",
+      "Evangelista Terculli",
+      "Jacques Charles",
+      "Amedeo Avogadro"
     ],
     "correct": 1,
-    "explanation": "An atom is the smallest unit of matter that retains the identity and properties of an element."
+    "explanation": "According to the reviewer, Evangelista Terculli is the Italian physicist who invented the barometer in 1643."
   },
   {
     "id": 2,
-    "question": "Which subatomic particle has a positive electric charge and is found in all atomic nuclei?",
+    "question": "Which instrument is specifically used to measure pressure in a closed system, also known as a pressure gauge?",
     "options": [
-      "Electron",
-      "Neutron",
-      "Proton",
-      "Nucleon"
+      "Barometer",
+      "Thermometer",
+      "Manometer",
+      "Hydrometer"
     ],
     "correct": 2,
-    "explanation": "A proton is a stable subatomic particle with a positive charge, located in the nucleus."
+    "explanation": "The 'FINALS REVIEWER - GEL' defines a Manometer as a pressure gauge used to measure pressure in a closed system."
   },
   {
     "id": 3,
-    "question": "What is the symbol for a neutron?",
+    "question": "What is the equivalent value of 1 Standard Atmosphere (atm) in Pascal (Pa) at sea level?",
     "options": [
-      "$p^+$",
-      "$e^-$",
-      "$n^0$",
-      "$N$"
+      "760 Pa",
+      "14.7 Pa",
+      "101,325 Pa",
+      "760,000 Pa"
     ],
     "correct": 2,
-    "explanation": "The symbol for a neutron is $n^0$ with a relative mass of 1 amu and a charge of 0."
+    "explanation": "The reviewer lists 101,325 Pa as the equivalent pressure for 1 atm at STP."
   },
   {
     "id": 4,
-    "question": "Where are protons and neutrons located within an atom?",
+    "question": "In the context of gas behavior, what does 'Temperature' measure?",
     "options": [
-      "Electron cloud",
-      "Orbits",
-      "Nucleus",
-      "Shells"
+      "Total energy of the container",
+      "Force exerted per area",
+      "Average kinetic energy",
+      "Random motion frequency"
     ],
     "correct": 2,
-    "explanation": "Protons and neutrons are located in the nucleus, forming nucleons."
+    "explanation": "Temperature is defined as the measure of average kinetic energy in the provided materials."
   },
   {
     "id": 5,
-    "question": "What is the total number of elements on the periodic table as stated in the reviewer?",
+    "question": "Which assumption of the Kinetic Molecular Theory states that gas particles are 'as hard as spheres'?",
     "options": [
-      "100",
-      "118",
-      "92",
-      "120"
+      "Assumption 1",
+      "Assumption 2",
+      "Assumption 3",
+      "Assumption 4"
     ],
-    "correct": 1,
-    "explanation": "The periodic table contains 118 elements."
+    "correct": 2,
+    "explanation": "Assumption 3 of KMT states that gas particles are as hard as spheres such that their collisions are perfectly elastic."
   },
   {
     "id": 6,
-    "question": "Which of the following is NOT a characteristic of a nonmetal?",
+    "question": "According to the Kinetic Molecular Theory, the average kinetic energy of a gas is directly proportional to its ___________.",
     "options": [
-      "Dull appearance",
-      "Good conductor of heat and electricity",
-      "Brittle (if solid)",
-      "Poor conductor of heat and electricity"
+      "Volume",
+      "Pressure",
+      "Absolute temperature",
+      "Number of moles"
     ],
-    "correct": 1,
-    "explanation": "Nonmetals are poor conductors, unlike metals which are good conductors."
+    "correct": 2,
+    "explanation": "Assumption 5 of KMT states that average kinetic energy is directly proportional to absolute temperature."
   },
   {
     "id": 7,
-    "question": "Which of the following elements is a noble gas?",
+    "question": "What is the pressure in psi (Pounds per Square Inch) at Standard Temperature and Pressure?",
     "options": [
-      "S",
-      "Ar",
-      "Br",
-      "Si"
+      "1.0 psi",
+      "14.7 psi",
+      "760 psi",
+      "101.3 psi"
     ],
     "correct": 1,
-    "explanation": "Argon (Ar) is an element in Group 18, also known as a noble gas."
+    "explanation": "The reviewer lists 14.7 psi as the standard pressure value at sea level."
   },
   {
     "id": 8,
-    "question": "The combination of protons and neutrons is called...",
+    "question": "Which gas law states that volume is inversely proportional to pressure at a constant temperature?",
     "options": [
-      "Ions",
-      "Subatomic particles",
-      "Nucleons",
-      "Molecules"
+      "Charles's Law",
+      "Gay-Lussac's Law",
+      "Boyle's Law",
+      "Avogadro's Law"
     ],
     "correct": 2,
-    "explanation": "Protons and neutrons together are referred to as nucleons."
+    "explanation": "Boyle's Law, proposed by Robert Boyle, defines the inverse relationship between pressure and volume."
   },
   {
     "id": 9,
-    "question": "Which of these is an example of a metalloid?",
+    "question": "A gas is at a pressure of 760 torr. What is this pressure in mm Hg?",
     "options": [
-      "C",
-      "H",
-      "Si",
-      "F"
+      "1 mm Hg",
+      "101.3 mm Hg",
+      "760 mm Hg",
+      "14.7 mm Hg"
     ],
     "correct": 2,
-    "explanation": "Silicon (Si) is one of the metalloids listed in the reviewer."
+    "explanation": "According to the STP equivalent values, 760 torr is equal to 760 mm Hg."
   },
   {
     "id": 10,
-    "question": "What is an ion that is positively charged and formed when a metal loses an electron?",
-    "options": [
-      "Anion",
-      "Cation",
-      "Nucleon",
-      "Molecule"
-    ],
-    "correct": 1,
-    "explanation": "A cation is a positively charged ion formed when a metal loses an electron."
-  },
-  {
-    "id": 11,
-    "question": "A group of two or more atoms that are chemically bonded is called a...",
+    "question": "Identify the subatomic particle with a relative mass of approximately 0.0005 amu and a relative charge of -1.",
     "options": [
       "Proton",
       "Neutron",
-      "Atom",
-      "Molecule"
+      "Electron",
+      "Nucleus"
     ],
-    "correct": 3,
-    "explanation": "A molecule is a group of two or more chemically bonded atoms."
+    "correct": 2,
+    "explanation": "The subatomic particle chart in the KMT PDF identifies the electron ($e^-$) with these specific properties."
+  },
+  {
+    "id": 11,
+    "question": "Solve the substitution: If $P_1 = 2.0 \\text{ atm}$, $V_1 = 4.0 \\text{ L}$, and $P_2 = 4.0 \\text{ atm}$, what is $V_2$ using Boyle's Law?",
+    "options": [
+      "2.0 L",
+      "8.0 L",
+      "1.0 L",
+      "16.0 L"
+    ],
+    "correct": 0,
+    "explanation": "Using $P_1 V_1 = P_2 V_2$: $(2.0 \\times 4.0) = (4.0 \\times V_2)$. $8.0 = 4.0V_2$. $V_2 = 2.0 \\text{ L}$."
   },
   {
     "id": 12,
-    "question": "The symbol $^A_Z X$ represents the isotopic symbol. What does 'Z' stand for?",
+    "question": "What is the mass number (A) of an atom of Calcium with the symbol $^{41}\\text{Ca}$?",
     "options": [
-      "Mass number",
-      "Atomic number",
-      "Element symbol",
-      "Isotope"
+      "20",
+      "41",
+      "21",
+      "61"
     ],
     "correct": 1,
-    "explanation": "In the isotopic symbol, Z represents the atomic number (number of protons)."
+    "explanation": "In an isotopic symbol or name like $^{41}\\text{Ca}$, the number 41 represents the mass number (A)."
   },
   {
     "id": 13,
-    "question": "In a neutrally charged atom, what is equal to the number of protons?",
+    "question": "Determine the number of neutrons in a neutral atom of Ca (Atomic number 20, Mass number 41).",
     "options": [
-      "Number of neutrons",
-      "Number of electrons",
-      "Atomic mass",
-      "Mass number"
+      "20",
+      "41",
+      "21",
+      "19"
     ],
-    "correct": 1,
-    "explanation": "In a neutrally charged atom, the number of protons is equal to the number of electrons."
+    "correct": 2,
+    "explanation": "Neutrons = Mass Number (A) - Atomic Number (Z). 41 - 20 = 21 neutrons."
   },
   {
     "id": 14,
-    "question": "Which group of elements is known for being chemically inert and unreactive under normal conditions due to full valence electron shells?",
+    "question": "Which principle states that 'Electrons must first occupy the orbitals with lower energies then the higher ones'?",
     "options": [
-      "Halogens",
-      "Metalloids",
-      "Nonmetals",
-      "Noble gases"
+      "Hund's Rule",
+      "Pauli Exclusion Principle",
+      "Aufbau Principle",
+      "Heisenberg Principle"
     ],
-    "correct": 3,
-    "explanation": "Noble gases have full valence electron shells, making them unreactive."
+    "correct": 2,
+    "explanation": "The Aufbau principle, also known as the building up principle, describes the order of orbital occupation."
   },
   {
     "id": 15,
-    "question": "What is the collective name for elements in Group 17 of the periodic table?",
+    "question": "What is the noble gas shortcut for the electron configuration of Strontium (Atomic number 38)?",
     "options": [
-      "Noble gases",
-      "Alkaline metals",
-      "Halogens",
-      "Lanthanides"
+      "$[_{18}\\text{Ar}] 4s^2$",
+      "$[_{36}\\text{Kr}] 5s^2$",
+      "$[_{54}\\text{Xe}] 6s^2$",
+      "$[_{10}\\text{Ne}] 3s^2$"
     ],
-    "correct": 2,
-    "explanation": "The halogens are in Group 17 (VIIA) of the periodic table."
+    "correct": 1,
+    "explanation": "The reviewer shows that for Strontium (38), the nearest preceding noble gas is Krypton (36), followed by 5s2."
   },
   {
     "id": 16,
-    "question": "What happens when an atom gains or loses an electron?",
+    "question": "In the formula for pressure, what does 'Area' represent?",
     "options": [
-      "It becomes a different element.",
-      "It becomes an isotope.",
-      "It becomes an ion.",
-      "Its mass number changes."
+      "Total volume of gas",
+      "The surface upon which force is exerted",
+      "The distance between particles",
+      "The mass of the container"
     ],
-    "correct": 2,
-    "explanation": "An ion is formed when an atom gains or loses an electron."
+    "correct": 1,
+    "explanation": "Pressure is defined as Force divided by Area ($P = \\frac{F}{A}$)."
   },
   {
     "id": 17,
-    "question": "The majority of elements on the periodic table are classified as...",
+    "question": "Which trend explains why atomic size decreases from left to right across a period?",
     "options": [
-      "Metalloids",
-      "Nonmetals",
-      "Halogens",
-      "Metals"
+      "Decreasing mass",
+      "Increasing atomic number",
+      "Increasing effective nuclear charge",
+      "Additional energy levels"
     ],
-    "correct": 3,
-    "explanation": "Metals make up the majority of the elements on the periodic table."
+    "correct": 2,
+    "explanation": "Increasing effective nuclear charge pulls electrons closer to the nucleus, making the atom compressed."
   },
   {
     "id": 18,
-    "question": "Who is credited as the first to propose the concept of the atom as the smallest unit of matter?",
+    "question": "How is 'Atomic Radius' defined in the reviewer?",
     "options": [
-      "John Dalton",
-      "Ernest Rutherford",
-      "J.J. Thomson",
-      "Dmitri Mendeleev"
+      "The distance from the center of the nucleus to the outer edge of the electron cloud",
+      "Half the distance between 2 nuclei",
+      "The total width of a neutral atom",
+      "The distance between protons and neutrons"
     ],
-    "correct": 0,
-    "explanation": "John Dalton is often called the father of modern atomic theory for his work on the atom."
+    "correct": 1,
+    "explanation": "The 'FINALS REVIEWER - GEL' defines atomic radius as half the distance between 2 nuclei."
   },
   {
     "id": 19,
-    "question": "What is the general formula for a saturated hydrocarbon, or alkane?",
+    "question": "Convert 303.15 K to Celsius.",
     "options": [
-      "$\\text{C}_n\\text{H}_{2n}$",
-      "$\\text{C}_n\\text{H}_{2n+2}$",
-      "$\\text{C}_n\\text{H}_{2n-2}$",
-      "$\\text{C}_n\\text{H}_n$"
+      "20 °C",
+      "25 °C",
+      "30 °C",
+      "35 °C"
     ],
-    "correct": 1,
-    "explanation": "The general formula for alkanes is $\\text{C}_n\\text{H}_{2n+2}$."
+    "correct": 2,
+    "explanation": "$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15$. Therefore, 303.15 - 273.15 = 30 °C."
   },
   {
     "id": 20,
-    "question": "How many carbon atoms are in the alkane named Decane?",
+    "question": "In an isotopic symbol for Calcium with a $2+$ charge ($^{41}_{20}\\text{Ca}^{2+}$), how many electrons are present?",
     "options": [
-      "8",
-      "9",
-      "10",
-      "11"
+      "20",
+      "22",
+      "18",
+      "41"
     ],
     "correct": 2,
-    "explanation": "Decane is the tenth alkane in the series, so it has 10 carbon atoms ($\\text{C}_{10}\\text{H}_{22}$)."
+    "explanation": "A neutral Calcium atom has 20 electrons. A $2+$ charge means it lost 2 electrons. 20 - 2 = 18 electrons."
   },
   {
     "id": 21,
-    "question": "What is the chemical formula for Propane?",
+    "question": "What happens to gas particles when they collide, according to KMT Assumption 3?",
     "options": [
-      "$\\text{C}_2\\text{H}_6$",
-      "$\\text{C}_3\\text{H}_8$",
-      "$\\text{C}_4\\text{H}_{10}$",
-      "$\\text{C}_5\\text{H}_{12}$"
+      "They lose energy to the container",
+      "They stick together",
+      "They are perfectly elastic",
+      "They slow down"
     ],
-    "correct": 1,
-    "explanation": "Propane is the third alkane, so its formula is $\\text{C}_3\\text{H}_8$."
+    "correct": 2,
+    "explanation": "Assumption 3 states collisions are perfectly elastic, meaning no kinetic energy is lost."
   },
   {
     "id": 22,
-    "question": "What type of chemical reaction occurs when two or more reactants combine to form a single product?",
+    "question": "Which gas law constant (R) value would be used if pressure is in atm and volume is in Liters?",
     "options": [
-      "Analysis",
-      "Substitution",
-      "Synthesis",
-      "Metathesis"
+      "8.314 J/mol·K",
+      "0.0821 L·atm/mol·K",
+      "62.36 L·torr/mol·K",
+      "1.987 cal/mol·K"
     ],
-    "correct": 2,
-    "explanation": "Synthesis or combination is a reaction where two or more reactants form one product ($A + B \\rightarrow AB$)."
+    "correct": 1,
+    "explanation": "Though the R value varies, the standard for atm/L calculations in general chemistry is 0.0821."
   },
   {
     "id": 23,
-    "question": "What is the name of the chemical reaction in which one reactant breaks down to form two or more products?",
+    "question": "What does the symbol 'Z' represent in atomic structure?",
     "options": [
-      "Combination",
-      "Decomposition",
-      "Single replacement",
-      "Double replacement"
+      "Mass Number",
+      "Number of Neutrons",
+      "Atomic Number",
+      "Ionic Charge"
     ],
-    "correct": 1,
-    "explanation": "Analysis or decomposition is a reaction where one reactant breaks down into two or more products ($AB \\rightarrow A + B$)."
+    "correct": 2,
+    "explanation": "As seen in the isotopic symbol diagrams, Z represents the atomic number (number of protons)."
   },
   {
     "id": 24,
-    "question": "Which of the following is an example of a synthesis reaction?",
+    "question": "According to the ARC Review, why does atomic radius increase down a group?",
     "options": [
-      "$\\text{H}_2\\text{O} \\rightarrow \\text{H}_2 + \\text{O}_2$",
-      "$\\text{NaOH} + \\text{HCl} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$",
-      "$\\text{Fe} + \\text{H}_2\\text{SO}_4 \\rightarrow \\text{FeSO}_4 + \\text{H}_2$",
-      "$2\\text{H}_2 + \\text{O}_2 \\rightarrow 2\\text{H}_2\\text{O}$"
+      "Fewer protons reduce attraction",
+      "Additional energy levels increase distance from the nucleus",
+      "Stronger intermolecular forces",
+      "Decreasing atomic mass"
     ],
-    "correct": 3,
-    "explanation": "This reaction shows two reactants ($\\text{H}_2$ and $\\text{O}_2$) combining to form a single product ($\\text{H}_2\\text{O}$). This is a synthesis reaction."
+    "correct": 1,
+    "explanation": "Additional energy levels (shells) increase the distance of valence electrons from the nucleus, expanding the radius."
   },
   {
     "id": 25,
-    "question": "In a single replacement reaction, a more active element replaces a less active element in a compound. Which halogen is the most active in the series?",
+    "question": "What is the relative charge of a neutron?",
     "options": [
-      "Cl",
-      "Br",
-      "I",
-      "F"
+      "+1",
+      "-1",
+      "0",
+      "None of the above"
     ],
-    "correct": 3,
-    "explanation": "The activity series for halogens is F>Cl>Br>I, making Fluorine (F) the most active."
+    "correct": 2,
+    "explanation": "Neutrons ($n^0$) are neutral and have a relative charge of 0."
   },
   {
     "id": 26,
-    "question": "What type of reaction involves two ionic compounds exchanging cations and anions with each other?",
+    "question": "Which of these is NOT a unit of pressure mentioned in the STP equivalent list?",
     "options": [
-      "Combination",
-      "Decomposition",
-      "Single replacement",
-      "Double replacement"
+      "Torr",
+      "Pascal",
+      "Newton",
+      "psi"
     ],
-    "correct": 3,
-    "explanation": "Metathesis or double replacement reactions involve the exchange of ions between two compounds ($AB + CD \\rightarrow AD + CB$)."
+    "correct": 2,
+    "explanation": "Newton is a unit of force, whereas Torr, Pascal, and psi are listed as units of pressure."
   },
   {
     "id": 27,
-    "question": "Which of the following indicates that a chemical reaction has occurred?",
+    "question": "Substitution Problem: A gas at 1.0 atm and 5.0 L is compressed to 2.5 L. What is the new pressure?",
     "options": [
-      "Production of sound",
-      "Change in phase only",
-      "Maintaining the same odor",
-      "Keeping the same temperature"
+      "0.5 atm",
+      "2.0 atm",
+      "5.0 atm",
+      "10.0 atm"
     ],
-    "correct": 0,
-    "explanation": "The reviewer lists 'production of sound' as one of the indicators of a chemical reaction."
+    "correct": 1,
+    "explanation": "$P_1 V_1 = P_2 V_2$. $(1.0 \\times 5.0) = (P_2 \\times 2.5)$. $5.0 = 2.5P_2$. $P_2 = 2.0 \\text{ atm}$."
   },
   {
     "id": 28,
-    "question": "True or False: When balancing a chemical equation, the amount of reactants must be equal to the amount of products.",
+    "question": "Charles's Law relates which two variables?",
     "options": [
-      "True",
-      "False"
+      "Pressure and Volume",
+      "Pressure and Temperature",
+      "Volume and Temperature",
+      "Volume and Moles"
     ],
-    "correct": 0,
-    "explanation": "This is a fundamental principle of balancing chemical equations, based on the law of conservation of mass."
+    "correct": 2,
+    "explanation": "Charles's Law states that Volume is directly proportional to Temperature."
   },
   {
     "id": 29,
-    "question": "What is the chemical formula for Methane?",
+    "question": "What must be constant for Gay-Lussac's Law to apply?",
     "options": [
-      "$\\text{CH}_4$",
-      "$\\text{C}_2\\text{H}_6$",
-      "$\\text{C}_3\\text{H}_8$",
-      "$\\text{C}_4\\text{H}_{10}$"
+      "Pressure",
+      "Volume",
+      "Temperature",
+      "Number of molecules"
     ],
-    "correct": 0,
-    "explanation": "Methane is the simplest alkane with one carbon atom, so its formula is $\\text{CH}_4$."
+    "correct": 1,
+    "explanation": "Gay-Lussac's Law relates Pressure and Temperature, meaning Volume must be kept constant."
   },
   {
     "id": 30,
-    "question": "What is the process of predicting the products of a chemical reaction based on the type of reaction?",
+    "question": "A balloon is filled with 3.0 L of air at 300 K. If the temperature increases to 400 K, what is the new volume? ($\\frac{V_1}{T_1} = \\frac{V_2}{T_2}$)",
     "options": [
-      "Balancing",
-      "Synthesis",
-      "Stoichiometry",
-      "Prediction"
+      "4.0 L",
+      "2.25 L",
+      "1.5 L",
+      "6.0 L"
     ],
-    "correct": 3,
-    "explanation": "The reviewer states that to predict a reaction, one must know what each type of chemical reaction does to know its reactants and products."
+    "correct": 0,
+    "explanation": "$\\frac{3.0}{300} = \\frac{V_2}{400}$. $0.01 = \\frac{V_2}{400}$. $V_2 = 4.0 \\text{ L}$."
   },
   {
     "id": 31,
-    "question": "Who is credited with the discovery of the electron using a cathode ray tube?",
+    "question": "Which assumption of KMT explains 'Air Pressure' as the force exerted on the walls of a container?",
     "options": [
-      "Ernest Rutherford",
-      "Niels Bohr",
-      "J.J. Thomson",
-      "Marie Curie"
+      "Particles are spheres",
+      "Rapid and random motion with collisions",
+      "Attractive forces are negligible",
+      "Kinetic energy is directly proportional to mass"
     ],
-    "correct": 2,
-    "explanation": "J.J. Thomson's experiments with cathode rays led to the discovery of the electron."
+    "correct": 1,
+    "explanation": "The reviewer explains air pressure as the force exerted on walls upon collision of moving particles."
   },
   {
     "id": 32,
-    "question": "What is the relative charge of an electron?",
+    "question": "If you are using the Noble Gas shortcut for Strontium, which Noble Gas do you place in brackets?",
     "options": [
-      "+1",
-      "0",
-      "-1",
-      "+2"
+      "Neon",
+      "Argon",
+      "Krypton",
+      "Xenon"
     ],
     "correct": 2,
-    "explanation": "An electron has a relative charge of -1."
+    "explanation": "Strontium has an atomic number of 38. Krypton (36) is the noble gas that precedes it."
   },
   {
     "id": 33,
-    "question": "What is the relative mass (in amu) of a proton?",
+    "question": "What is the mass number (A) defined as in the KMT PDF?",
     "options": [
-      "1",
-      "0",
-      "1/1836",
-      "2"
+      "$p^+$ only",
+      "$n^0$ only",
+      "$p^+ + n^0$",
+      "$p^+$ + e-"
     ],
-    "correct": 0,
-    "explanation": "Protons have a relative mass of 1 atomic mass unit (amu)."
+    "correct": 2,
+    "explanation": "Mass number (A) is equal to the number of protons plus the number of neutrons."
   },
   {
     "id": 34,
-    "question": "What is an anion?",
+    "question": "Effective Nuclear Charge pulls electrons ________ to the nucleus.",
     "options": [
-      "A positively charged ion",
-      "A neutrally charged atom",
-      "A negatively charged ion",
-      "An isotope"
+      "Farther",
+      "Slower",
+      "Closer",
+      "None of the above"
     ],
     "correct": 2,
-    "explanation": "An anion is a negatively charged ion formed when a nonmetal gains an electron."
+    "explanation": "Increasing effective nuclear charge pulls electrons closer, making the atom compressed."
   },
   {
     "id": 35,
-    "question": "According to the reviewer, which elements are considered nonmetals and are located on the right side of the periodic table, including Hydrogen?",
+    "question": "Identify the incorrect statement about a neutral atom from the ARC Review.",
     "options": [
-      "Metals",
-      "Metalloids",
-      "Nonmetals",
-      "Noble Gases"
+      "The number of protons equals the number of electrons",
+      "The atom is always a metal",
+      "The mass number is protons plus neutrons",
+      "Electrons occupy energy levels"
     ],
-    "correct": 2,
-    "explanation": "Nonmetals are primarily found on the right side of the periodic table, with hydrogen being an exception on the left."
+    "correct": 1,
+    "explanation": "A neutral atom is not always a metal; it depends on its position in the periodic table."
   },
   {
     "id": 36,
-    "question": "Who proposed the model of the atom with electrons orbiting a central nucleus?",
+    "question": "In the electron configuration sequence, which orbital comes immediately after 4s?",
     "options": [
-      "Niels Bohr",
-      "Ernest Rutherford",
-      "John Dalton",
-      "J.J. Thomson"
+      "4p",
+      "3d",
+      "5s",
+      "4d"
     ],
     "correct": 1,
-    "explanation": "Ernest Rutherford's gold foil experiment led to the discovery of the nucleus and the nuclear model of the atom."
+    "explanation": "Following the Aufbau sequence shown in the GEL reviewer: $4s^2$, then $3d^{10}$."
   },
   {
     "id": 37,
-    "question": "What is the name of the process by which a nonmetal X replaces another nonmetal in a compound?",
+    "question": "How many millimeters of mercury (mm Hg) are in 1.5 atm?",
     "options": [
-      "Synthesis",
-      "Analysis",
-      "Substitution",
-      "Metathesis"
+      "760 mm Hg",
+      "1140 mm Hg",
+      "1500 mm Hg",
+      "380 mm Hg"
     ],
-    "correct": 2,
-    "explanation": "This is an example of a substitution or single replacement reaction."
+    "correct": 1,
+    "explanation": "1 atm = 760 mm Hg. 1.5 * 760 = 1140 mm Hg."
   },
   {
     "id": 38,
-    "question": "What is the chemical formula for Ethane?",
+    "question": "KMT Assumption 4 states that interactions (attractive or repulsive) are ____________.",
     "options": [
-      "$\\text{C}_2\\text{H}_4$",
-      "$\\text{C}_2\\text{H}_6$",
-      "$\\text{C}_3\\text{H}_8$",
-      "$\\text{C}_4\\text{H}_{10}$"
+      "Very strong",
+      "Moderate",
+      "Negligible",
+      "Unpredictable"
     ],
-    "correct": 1,
-    "explanation": "Ethane is the second alkane, with a formula of $\\text{C}_2\\text{H}_6$."
+    "correct": 2,
+    "explanation": "The assumption states that these interactions are negligible."
   },
   {
     "id": 39,
-    "question": "Which of the following is NOT an alkane?",
+    "question": "What was the first barometer made of?",
     "options": [
-      "Pentane",
-      "Decane",
-      "Ethene",
-      "Hexane"
+      "A tube filled with Water",
+      "A tube filled with Mercury (Hg)",
+      "A tube filled with Alcohol",
+      "A digital sensor"
     ],
-    "correct": 2,
-    "explanation": "Ethene is an alkene, which is a different homologous series."
+    "correct": 1,
+    "explanation": "The reviewer states the first barometer consisted of a basic and long tube filled with Hg."
   },
   {
     "id": 40,
-    "question": "What is the chemical formula for Butane?",
+    "question": "What is the relative mass (amu) of a proton?",
     "options": [
-      "$\\text{C}_3\\text{H}_8$",
-      "$\\text{C}_4\\text{H}_{10}$",
-      "$\\text{C}_5\\text{H}_{12}$",
-      "$\\text{C}_6\\text{H}_{14}$"
+      "0.0005",
+      "1",
+      "0",
+      "2"
     ],
     "correct": 1,
-    "explanation": "Butane is the fourth alkane with the formula $\\text{C}_4\\text{H}_{10}$."
+    "explanation": "The subatomic particle chart lists the relative mass of a proton as 1 amu."
   },
   {
     "id": 41,
-    "question": "How many hydrogen atoms are in the alkane with 7 carbon atoms?",
+    "question": "Avogadro's Law states that Volume is directly proportional to _________.",
     "options": [
-      "14",
-      "15",
-      "16",
-      "18"
+      "Temperature",
+      "Pressure",
+      "Number of moles (n)",
+      "Mass"
     ],
     "correct": 2,
-    "explanation": "Using the general formula $\\text{C}_n\\text{H}_{2n+2}$, for $n=7$, the number of hydrogen atoms is $2(7)+2 = 16$."
+    "explanation": "Avogadro's Law relates Volume and the number of moles/particles."
   },
   {
     "id": 42,
-    "question": "In the reaction $A + BC \\rightarrow AC + B$, what type of reaction is this?",
+    "question": "Which of the following is the Combined Gas Law formula?",
     "options": [
-      "Synthesis",
-      "Decomposition",
-      "Single Replacement",
-      "Double Replacement"
+      "$PV = nRT$",
+      "$\\frac{P_1 V_1}{T_1} = \\frac{P_2 V_2}{T_2}$",
+      "$\\frac{V_1}{T_1} = \\frac{V_2}{T_2}$",
+      "$\\frac{P_1}{T_1} = \\frac{P_2}{T_2}$"
     ],
-    "correct": 2,
-    "explanation": "This is the general form of a single replacement reaction."
+    "correct": 1,
+    "explanation": "The Combined Gas Law integrates Boyle's, Charles's, and Gay-Lussac's laws."
   },
   {
     "id": 43,
-    "question": "The chemical reaction represented by $AB \\rightarrow A + B$ is known as...",
+    "question": "At constant volume, the pressure of a gas is 2 atm at 200 K. What is the pressure at 400 K?",
     "options": [
-      "Decomposition",
-      "Combination",
-      "Substitution",
-      "Metathesis"
+      "1 atm",
+      "2 atm",
+      "4 atm",
+      "8 atm"
     ],
-    "correct": 0,
-    "explanation": "This is the general form of an analysis or decomposition reaction."
+    "correct": 2,
+    "explanation": "$\\frac{P_1}{T_1} = \\frac{P_2}{T_2}$. $\\frac{2}{200} = \\frac{P_2}{400}$. $0.01 = \\frac{P_2}{400}$. $P_2 = 4 \\text{ atm}$."
   },
   {
     "id": 44,
-    "question": "What are the products of the reaction between $\\text{CaCO}_3$ when it undergoes a decomposition reaction?",
+    "question": "If an atom has 6 protons, 6 neutrons, and 6 electrons, what is its mass number?",
     "options": [
-      "$\\text{Ca} + \\text{CO}_3$",
-      "$\\text{CaO} + \\text{CO}_2$",
-      "$\\text{Ca(OH)}_2 + \\text{CO}_2$",
-      "$\\text{Ca} + \\text{C} + \\text{O}_2$"
+      "6",
+      "12",
+      "18",
+      "0"
     ],
     "correct": 1,
-    "explanation": "The reviewer shows the decomposition of $\\text{CaCO}_3$ into $\\text{CaO}$ and $\\text{CO}_2$."
+    "explanation": "Mass Number = Protons + Neutrons. 6 + 6 = 12."
   },
   {
     "id": 45,
-    "question": "In the reaction $\\text{Al} + \\text{Fe}_2\\text{O}_3 \\rightarrow \\text{Al}_2\\text{O}_3 + \\text{Fe}$, what is the single element that is more active?",
+    "question": "Which subatomic particle is not found in the nucleus?",
     "options": [
-      "Al",
-      "$\\text{Fe}_2\\text{O}_3$",
-      "Fe",
-      "$\\text{Al}_2\\text{O}_3$"
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Both A and B"
     ],
-    "correct": 0,
-    "explanation": "Aluminum (Al) is more active and replaces Iron (Fe) from its compound."
+    "correct": 2,
+    "explanation": "Electrons are located in orbitals outside the nucleus."
   },
   {
     "id": 46,
-    "question": "What is the name of the process shown in the reaction $2\\text{NaBr}(aq) + \\text{Cl}_2(aq) \\rightarrow 2\\text{NaCl}(aq) + \\text{Br}_2(g)$?",
+    "question": "In the abbreviation 'STP', what does the 'S' stand for?",
     "options": [
-      "Synthesis",
-      "Analysis",
-      "Single Replacement",
-      "Double Replacement"
+      "Simple",
+      "Standard",
+      "Static",
+      "Sea-level"
     ],
-    "correct": 2,
-    "explanation": "Chlorine ($\\text{Cl}$) replaces Bromine ($\\text{Br}$) in a single replacement reaction."
+    "correct": 1,
+    "explanation": "STP stands for Standard Temperature and Pressure."
   },
   {
     "id": 47,
-    "question": "According to the provided text, what is a key feature of a homologous series?",
+    "question": "Which gas law's formula is $P_1 V_1 = P_2 V_2$?",
     "options": [
-      "All members have different functional groups.",
-      "All members are saturated hydrocarbons.",
-      "All members follow a specific general formula.",
-      "All members are gases at room temperature."
+      "Charles's Law",
+      "Boyle's Law",
+      "Avogadro's Law",
+      "Ideal Gas Law"
     ],
-    "correct": 2,
-    "explanation": "The reviewer highlights the general formula for alkanes, which is a homologous series."
+    "correct": 1,
+    "explanation": "Boyle's Law represents the relationship where pressure times volume is constant."
   },
   {
     "id": 48,
-    "question": "What is the name of the alkane with the chemical formula $\\text{C}_6\\text{H}_{14}$?",
+    "question": "What is the equivalent of 760 mm Hg in Torr?",
     "options": [
-      "Pentane",
-      "Hexane",
-      "Heptane",
-      "Octane"
+      "1 Torr",
+      "101.3 Torr",
+      "760 Torr",
+      "14.7 Torr"
     ],
-    "correct": 1,
-    "explanation": "Hexane is the sixth alkane in the series, so its formula is $\\text{C}_6\\text{H}_{14}$."
+    "correct": 2,
+    "explanation": "Based on the reviewer's STP values, 760 mm Hg = 760 Torr."
   },
   {
     "id": 49,
-    "question": "True or False: A change in odor is a physical indicator that a chemical reaction has occurred.",
+    "question": "Electron configuration of Strontium ends with which subshell?",
     "options": [
-      "True",
-      "False"
+      "$4p^6$",
+      "$5s^2$",
+      "$3d^{10}$",
+      "$4s^2$"
     ],
     "correct": 1,
-    "explanation": "A change in odor is a chemical change, indicating a chemical reaction, not a physical one."
+    "explanation": "The full configuration shown in the reviewer ends in $5s^2$."
   },
   {
     "id": 50,
-    "question": "What is the chemical formula for Octane?",
+    "question": "KMT Assumption 2 states that gas particles move at what kind of motion?",
     "options": [
-      "$\\text{C}_7\\text{H}_{16}$",
-      "$\\text{C}_8\\text{H}_{18}$",
-      "$\\text{C}_9\\text{H}_{20}$",
-      "$\\text{C}_{10}\\text{H}_{22}$"
+      "Slow and circular",
+      "Rapid and random",
+      "Vibrational",
+      "Fixed paths"
     ],
     "correct": 1,
-    "explanation": "Octane is the eighth alkane with the formula $\\text{C}_8\\text{H}_{18}$."
-  },
-  {
-    "id": 51,
-    "question": "Who is considered the 'father of modern chemistry' for his work on the law of conservation of mass?",
-    "options": [
-      "Robert Boyle",
-      "Antoine Lavoisier",
-      "Joseph Priestley",
-      "Louis Pasteur"
-    ],
-    "correct": 1,
-    "explanation": "Antoine Lavoisier's work on the conservation of mass laid the foundation for modern chemistry."
-  },
-  {
-    "id": 52,
-    "question": "What type of reaction is represented by the general formula $AB + CD \\rightarrow AD + CB$?",
-    "options": [
-      "Synthesis",
-      "Analysis",
-      "Single Replacement",
-      "Double Replacement"
-    ],
-    "correct": 3,
-    "explanation": "This is the general form for a double replacement reaction."
-  },
-  {
-    "id": 53,
-    "question": "What is the name of the alkane with 9 carbon atoms?",
-    "options": [
-      "Heptane",
-      "Octane",
-      "Nonane",
-      "Decane"
-    ],
-    "correct": 2,
-    "explanation": "Nonane has 9 carbon atoms."
-  },
-  {
-    "id": 54,
-    "question": "What is the formula for Heptane?",
-    "options": [
-      "$\\text{C}_6\\text{H}_{14}$",
-      "$\\text{C}_7\\text{H}_{16}$",
-      "$\\text{C}_8\\text{H}_{18}$",
-      "$\\text{C}_9\\text{H}_{20}$"
-    ],
-    "correct": 1,
-    "explanation": "Heptane has 7 carbon atoms, so its formula is $\\text{C}_7\\text{H}_{16}$."
-  },
-  {
-    "id": 55,
-    "question": "True or False: All hydrocarbons are saturated.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 1,
-    "explanation": "Hydrocarbons can be saturated (like alkanes) or unsaturated (like alkenes and alkynes)."
-  },
-  {
-    "id": 56,
-    "question": "What is the symbol and charge of an electron?",
-    "options": [
-      "$e^-$, -1",
-      "$p^+$, +1",
-      "$n^0$, 0",
-      "$e^-$, 0"
-    ],
-    "correct": 0,
-    "explanation": "An electron's symbol is $e^-$ with a relative charge of -1."
-  },
-  {
-    "id": 57,
-    "question": "Which of the following is a characteristic of a metal?",
-    "options": [
-      "Dull",
-      "Brittle",
-      "Malleable",
-      "Poor conductor"
-    ],
-    "correct": 2,
-    "explanation": "Metals are typically malleable and ductile, and are good conductors of heat and electricity."
-  },
-  {
-    "id": 58,
-    "question": "What are the products of the decomposition of $\\text{NaClO}_3$?",
-    "options": [
-      "$\\text{NaCl} + \\text{O}_2$",
-      "$\\text{Na} + \\text{Cl}_2 + \\text{O}_2$",
-      "$\\text{Na} + \\text{ClO}_3$",
-      "$\\text{NaCl} + \\text{Cl} + \\text{O}_2$"
-    ],
-    "correct": 0,
-    "explanation": "The reviewer shows the decomposition of $\\text{NaClO}_3$ into $\\text{NaCl}$ and $\\text{O}_2$."
-  },
-  {
-    "id": 59,
-    "question": "Who is credited with arranging the first 63 known elements into the periodic table based on their atomic mass?",
-    "options": [
-      "John Dalton",
-      "Dmitri Mendeleev",
-      "Niels Bohr",
-      "Robert Boyle"
-    ],
-    "correct": 1,
-    "explanation": "Dmitri Mendeleev created the first periodic table of elements."
-  },
-  {
-    "id": 60,
-    "question": "The term 'Homologous series' refers to a series of compounds that...",
-    "options": [
-      "Are all saturated.",
-      "Have the same chemical formula.",
-      "Have the same functional group and similar chemical properties.",
-      "Are all gases at standard temperature and pressure."
-    ],
-    "correct": 2,
-    "explanation": "A homologous series is a series of compounds with similar chemical properties due to the same functional group."
-  },
-  {
-    "id": 61,
-    "question": "What is the main difference between an atom and an ion?",
-    "options": [
-      "Atoms are larger.",
-      "Ions have a net electric charge.",
-      "Atoms have more protons.",
-      "Ions are always positively charged."
-    ],
-    "correct": 1,
-    "explanation": "An ion is formed by gaining or losing electrons, giving it a net electric charge, unlike a neutral atom."
-  },
-  {
-    "id": 62,
-    "question": "Which of the following is a metalloid according to the reviewer?",
-    "options": [
-      "F",
-      "S",
-      "As",
-      "H"
-    ],
-    "correct": 2,
-    "explanation": "Arsenic (As) is listed as a metalloid."
-  },
-  {
-    "id": 63,
-    "question": "What is the name of the alkane with the formula $C_{10}H_{22}$?",
-    "options": [
-      "Hexane",
-      "Nonane",
-      "Heptane",
-      "Decane"
-    ],
-    "correct": 3,
-    "explanation": "Decane is the tenth alkane in the series."
-  },
-  {
-    "id": 64,
-    "question": "In the isotopic symbol, what does 'A' represent?",
-    "options": [
-      "Atomic number",
-      "Mass number",
-      "Number of protons",
-      "Number of electrons"
-    ],
-    "correct": 1,
-    "explanation": "A represents the mass number, which is the sum of protons and neutrons."
-  },
-  {
-    "id": 65,
-    "question": "Who is known for proposing that an atom is mostly empty space with a small, dense, positively charged nucleus?",
-    "options": [
-      "Ernest Rutherford",
-      "J.J. Thomson",
-      "John Dalton",
-      "Niels Bohr"
-    ],
-    "correct": 0,
-    "explanation": "Rutherford's famous gold foil experiment led to this conclusion about the structure of the atom."
-  },
-  {
-    "id": 66,
-    "question": "Which type of chemical reaction is shown in the reaction $\\text{H}_2\\text{O} \\rightarrow \\text{H}_2 + \\text{O}_2$?",
-    "options": [
-      "Synthesis",
-      "Analysis",
-      "Substitution",
-      "Double replacement"
-    ],
-    "correct": 1,
-    "explanation": "This is a decomposition (analysis) reaction where a compound breaks down into simpler substances."
-  },
-  {
-    "id": 67,
-    "question": "What are the common indicators of a chemical reaction?",
-    "options": [
-      "Change in phase, volume, and shape.",
-      "Production of heat, light, sound, and a change in color or odor.",
-      "Melting, boiling, and freezing.",
-      "Dissolving in a solvent."
-    ],
-    "correct": 1,
-    "explanation": "The reviewer lists these as indicators of a chemical reaction."
-  },
-  {
-    "id": 68,
-    "question": "What is the common term for a displacement reaction?",
-    "options": [
-      "Combination",
-      "Metathesis",
-      "Substitution",
-      "Decomposition"
-    ],
-    "correct": 2,
-    "explanation": "A substitution (or single replacement) reaction is also known as a displacement reaction."
-  },
-  {
-    "id": 69,
-    "question": "What is the chemical formula for Nonane?",
-    "options": [
-      "$\\text{C}_8\\text{H}_{18}$",
-      "$\\text{C}_9\\text{H}_{20}$",
-      "$\\text{C}_{10}\\text{H}_{22}$",
-      "$\\text{C}_{11}\\text{H}_{24}$"
-    ],
-    "correct": 1,
-    "explanation": "Nonane has 9 carbon atoms and its formula is $\\text{C}_9\\text{H}_{20}$."
-  },
-  {
-    "id": 70,
-    "question": "What is the key principle that guides the balancing of chemical equations?",
-    "options": [
-      "Law of Multiple Proportions",
-      "Law of Conservation of Energy",
-      "Law of Conservation of Mass",
-      "Law of Definite Proportions"
-    ],
-    "correct": 2,
-    "explanation": "Balancing equations ensures that mass is conserved, with the same number of atoms on both the reactant and product sides."
-  },
-  {
-    "id": 71,
-    "question": "In the reaction $A+B \\rightarrow AB$, what is the term for A and B?",
-    "options": [
-      "Products",
-      "Reactants",
-      "Catalysts",
-      "Molecules"
-    ],
-    "correct": 1,
-    "explanation": "A and B are the substances that react, which are called reactants."
-  },
-  {
-    "id": 72,
-    "question": "What element is a nonmetal but is located in Group 1?",
-    "options": [
-      "Sodium",
-      "Hydrogen",
-      "Lithium",
-      "Helium"
-    ],
-    "correct": 1,
-    "explanation": "Hydrogen is a nonmetal but is in Group 1, unlike the alkali metals in the same group."
-  },
-  {
-    "id": 73,
-    "question": "The chemical elements that have properties intermediate between those of metals and nonmetals are called?",
-    "options": [
-      "Alkali metals",
-      "Halogens",
-      "Metalloids",
-      "Noble gases"
-    ],
-    "correct": 2,
-    "explanation": "This is the definition of a metalloid."
-  },
-  {
-    "id": 74,
-    "question": "In the chemical reaction $\\text{CaO} + \\text{CO}_2 \\rightarrow \\text{CaCO}_3$, what is the name of the product?",
-    "options": [
-      "Calcium oxide",
-      "Calcium carbonate",
-      "Carbon dioxide",
-      "Calcium carbide"
-    ],
-    "correct": 1,
-    "explanation": "$\\text{CaCO}_3$ is Calcium Carbonate."
-  },
-  {
-    "id": 75,
-    "question": "What is the term for a chemical that speeds up a reaction without being consumed?",
-    "options": [
-      "Inhibitor",
-      "Reactant",
-      "Product",
-      "Catalyst"
-    ],
-    "correct": 3,
-    "explanation": "A catalyst increases the rate of a chemical reaction without undergoing any permanent chemical change."
-  },
-  {
-    "id": 76,
-    "question": "What is a hydrated salt?",
-    "options": [
-      "A salt dissolved in water.",
-      "A salt with water molecules incorporated into its crystal structure.",
-      "A salt that reacts with water.",
-      "A salt that is insoluble in water."
-    ],
-    "correct": 1,
-    "explanation": "A hydrated salt is an ionic compound that has a specific number of water molecules bound to each formula unit within its crystal lattice."
-  },
-  {
-    "id": 77,
-    "question": "According to the Arrhenius theory, what defines an acid?",
-    "options": [
-      "A substance that accepts a proton.",
-      "A substance that donates a proton.",
-      "A substance that produces $\\text{H}^+$ ions in an aqueous solution.",
-      "A substance that produces $\\text{OH}^-$ ions in an aqueous solution."
-    ],
-    "correct": 2,
-    "explanation": "The Arrhenius definition of an acid is a substance that dissociates in an aqueous solution to produce hydrogen ions ($\\text{H}^+$)."
-  },
-  {
-    "id": 78,
-    "question": "What is the main difference between a binary acid and a ternary acid?",
-    "options": [
-      "Binary acids contain oxygen, while ternary acids do not.",
-      "Binary acids contain only two elements, while ternary acids contain three or more elements.",
-      "Binary acids are strong, while ternary acids are weak.",
-      "Binary acids are organic, while ternary acids are inorganic."
-    ],
-    "correct": 1,
-    "explanation": "A binary acid consists of hydrogen and one other nonmetal. A ternary acid (or oxyacid) contains hydrogen, a nonmetal, and oxygen."
-  },
-  {
-    "id": 80,
-    "question": "Who proposed the 'plum pudding' model of the atom?",
-    "options": [
-      "John Dalton",
-      "J.J. Thomson",
-      "Ernest Rutherford",
-      "Niels Bohr"
-    ],
-    "correct": 1,
-    "explanation": "J.J. Thomson's 'plum pudding' model described the atom as a sphere of positive charge with electrons embedded in it."
+    "explanation": "Assumption 2 states particles are constantly moving at a rapid and random motion."
   }
 ];
 
