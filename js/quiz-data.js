@@ -5806,8 +5806,8 @@ const filipinoQuestions = [
       "Pink o Rosas",
       "Pula"
     ],
-    "correct": 1,
-    "explanation": "Ang dilaw o luntian (green) ay ginagamit para sa mga general memo."
+    "correct": 0,
+    "explanation": "Ang puti na stationery ay ginagamit para sa mga general memo."
   },
   {
     "id": 14,
