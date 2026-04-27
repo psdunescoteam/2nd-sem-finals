@@ -5825,7 +5825,7 @@ const filipinoQuestions = [
     "id": 15,
     "question": "Anong bahagi ng memo ang naglalaman ng pangalan ng organisasyon, logo, at numero ng telepono?",
     "options": [
-      "Heading",
+      "Mula Kay",
       "Letterhead / Header",
       "Mensahe",
       "Lagda"
@@ -6084,18 +6084,6 @@ const filipinoQuestions = [
     ],
     "correct": 1,
     "explanation": "Ang heading ay tumutulong sa organisasyon at pagkakakilanlan ng sulatin."
-  },
-  {
-    "id": 37,
-    "question": "Sa pamantayan ng pagmamarka (rubrics) na nasa reviewer, ilang puntos ang nakalaan para sa 'Nilalaman'?",
-    "options": [
-      "1 puntos",
-      "2 puntos",
-      "5 puntos",
-      "10 puntos"
-    ],
-    "correct": 1,
-    "explanation": "Ayon sa reviewer slide, ang 'Nilalaman' ay may katumbas na 2 puntos sa kabuuang 5 puntos."
   },
   {
     "id": 38,
