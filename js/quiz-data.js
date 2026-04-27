@@ -2143,774 +2143,606 @@ const contemporaryArtsQuestions = [
 
 // Empowerment Technologies Quiz Data - 67 Questions
 const empowermentTechnologiesQuestions = [
- {
+  {
     "id": 1,
-    "question": "What component of an Excel spreadsheet runs vertically and is identified by letters (A, B, C, etc.)?",
+    "question": "It is defined as the process of representing or conveying something, where ideas and reality are encountered in their materially contained form.",
     "options": [
-      "Rows",
-      "Cells",
-      "Columns",
-      "Worksheet Tab"
+      "Mediatization",
+      "Mediation",
+      "Traditional Media",
+      "Technological Determinism"
     ],
-    "correct": 2,
-    "explanation": "Columns run vertically on the sheet and are identified by letters (A, B, C, etc.)."
+    "correct": 1,
+    "explanation": "According to the reviewer, Mediation is the process of representing or conveying ideas, knowledge, and reality through materially contained forms."
   },
   {
     "id": 2,
-    "question": "The individual rectangular unit in an Excel spreadsheet where you type values is called a(n):",
+    "question": "Which term refers to media in the sense of mechanical and electronic media technologies where media has become a structural condition for society?",
     "options": [
-      "Active Cell",
-      "Formula Bar",
-      "Column Header",
-      "Cell"
+      "Mediation",
+      "Mechanical Media",
+      "Mediatization",
+      "New Media"
     ],
-    "correct": 3,
-    "explanation": "The individual rectangular unit is a cell, and the content you type is its content."
+    "correct": 2,
+    "explanation": "Mediatization refers to the presence of mechanical and electronic media as a structural condition for society and cultural practices."
   },
   {
     "id": 3,
-    "question": "The bar that displays and allows modification of the value currently typed in the active cell is the:",
+    "question": "Newspapers, magazines, television, and radio are examples of what kind of media?",
     "options": [
-      "Title Bar",
-      "Status Bar",
-      "Formula Bar",
-      "Name Box"
+      "Traditional Media",
+      "Mechanical Media",
+      "Electronic Media",
+      "New Media"
     ],
-    "correct": 2,
-    "explanation": "The Formula Bar shows the value typed in the cell and allows for modification."
+    "correct": 0,
+    "explanation": "The reviewer classifies newspapers, magazines, television, and radio as Traditional Media, characterized by one-way communication."
   },
   {
     "id": 4,
-    "question": "Which function allows for the summing of numerical data across any number of selected columns or rows?",
+    "question": "Which type of media relies on physical or manual machines to share information without the use of electricity or digital systems?",
     "options": [
-      "SUMIF()",
-      "AVERAGE()",
-      "COUNT()",
-      "SUM()"
+      "Traditional Media",
+      "Electronic Media",
+      "Mechanical Media",
+      "Social Media"
     ],
-    "correct": 3,
-    "explanation": "The SUM() function allows for the summing of numerical data in any number of columns or rows by selecting them."
+    "correct": 2,
+    "explanation": "Mechanical Media relies on physical or manual processes, such as the printing press or typewriter, rather than electricity."
   },
   {
     "id": 5,
-    "question": "A group or collection of cells, which can be a group within a row, column, or combination of both, is defined as a(n):",
+    "question": "Television, radio, internet, and smartphones are classified under which category in the reviewer?",
     "options": [
-      "Criteria",
-      "Sum_Range",
-      "Range",
-      "Table_range"
+      "Traditional Media",
+      "Mechanical Media",
+      "Electronic Media",
+      "Mediation"
     ],
     "correct": 2,
-    "explanation": "A Range is a group or collection of cells, which can be a group of cells within a row, column, or combination of both."
+    "explanation": "Electronic Media uses electricity or digital technology to communicate information and is often fast and interactive."
   },
   {
     "id": 6,
-    "question": "Which function is used to summate the values of cells in a range that meet a specific criteria?",
+    "question": "Who is the proponent of the aphorism 'The Medium is the Message'?",
     "options": [
-      "SUM()",
-      "AVERAGEIF()",
-      "IF()",
-      "SUMIF()"
+      "Harold Innis",
+      "Marshall McLuhan",
+      "Johannes Gutenberg",
+      "Tim Berners-Lee"
     ],
-    "correct": 3,
-    "explanation": "The SUMIF() function is used to summate the values of cells in a range that meet the criteria."
+    "correct": 1,
+    "explanation": "Marshall McLuhan is the famous theorist who introduced the concept that 'The Medium is the Message'."
   },
   {
     "id": 7,
-    "question": "What is the correct syntax for the AVERAGE() function?",
+    "question": "According to McLuhan, what is the 'Message' of any medium or technology?",
     "options": [
-      "=AVERAGE(criteria, range)",
-      "=AVERAGE(range to be averaged)",
-      "=AVERAGE(range, criteria)",
-      "=AVERAGE(number1, number2)"
+      "The content of a broadcast",
+      "The change of scale, pace, or pattern it introduces to human affairs",
+      "The information sent through a signal",
+      "The language used in a newspaper"
     ],
     "correct": 1,
-    "explanation": "The formula for the AVERAGE() function is =AVERAGE(range to be averaged)."
+    "explanation": "In McLuhan's view, the message is the change in scale, pace, or pattern that the technology introduces into human life."
   },
   {
     "id": 8,
-    "question": "The COUNT() function counts the number of selected cells that contain a:",
+    "question": "In the context of media technology, what does 'Pace' refer to?",
     "options": [
-      "Text string",
-      "Logical value (TRUE/FALSE)",
-      "Numerical value",
-      "Blank space"
+      "How big or widespread things become",
+      "How fast things happen",
+      "How people behave or interact",
+      "The volume of the message"
     ],
-    "correct": 2,
-    "explanation": "The COUNT() function counts the number of chosen cells that contain a numerical value."
+    "correct": 1,
+    "explanation": "According to the reviewer's breakdown of McLuhan's theory, Pace refers to changes in how fast things happen."
   },
   {
     "id": 9,
-    "question": "The correct syntax for the =IF() function is:",
+    "question": "Who stated, 'Any thought of historical proceedings without mechanical and electronic media is moot'?",
     "options": [
-      "=IF(Condition, Result if True, Result if False)",
-      "=IF(Result if True, Condition, Result if False)",
-      "=IF(Condition, 'Result if True', 'Result if False')",
-      "=IF('Result if True', 'Result if False', Condition)"
+      "Marshall McLuhan",
+      "Harold Innis",
+      "Samuel Morse",
+      "Lumiere Brothers"
     ],
-    "correct": 2,
-    "explanation": "The syntax for the IF() function is =IF(Condition, 'Result if True', 'Result if False')."
+    "correct": 1,
+    "explanation": "This quote is attributed to Harold Innis in the 'Media as Means' section of the reviewer."
   },
   {
     "id": 10,
-    "question": "The AND() function will return FALSE if:",
+    "question": "Which theory suggests that technology is the primary driver of social and cultural change?",
     "options": [
-      "All conditions are met.",
-      "At least one condition is met.",
-      "Even if one of the conditions is not met.",
-      "The AND() function always returns TRUE."
+      "Mediation",
+      "Technological Determinism",
+      "Soft-Sell Theory",
+      "Mediatization"
     ],
-    "correct": 2,
-    "explanation": "The AND() function will return TRUE if all conditions are met and FALSE even if one of the conditions is not met."
+    "correct": 1,
+    "explanation": "Technological Determinism is the theory that technology determines the development of its social structure and cultural values."
   },
   {
     "id": 11,
-    "question": "Which function is used to find data by row in a table by searching for the lookup value in the leftmost column of the chosen range?",
+    "question": "What kind of determinism argues that media technologies have a 'deterministic' influence on society, yet individuals and culture still shape their impact?",
     "options": [
-      "CONCATENATE()",
-      "VLOOKUP()",
-      "SUMIF()",
-      "MAX()"
+      "Hard Determinism",
+      "Soft Determinism",
+      "Mechanical Determinism",
+      "Electronic Determinism"
     ],
     "correct": 1,
-    "explanation": "The VLOOKUP() function is used to find data by row in a table or a range by finding the lookup value in the leftmost column."
+    "explanation": "Soft Determinism accounts for the influence of technology while acknowledging the role of the human factor and society in shaping its direction."
   },
   {
     "id": 12,
-    "question": "In VLOOKUP(), what does the logical value 'TRUE' for 'Range\_lookup' signify?",
+    "question": "In advertising, which approach is described as emotional, indirect, and associative in nature?",
     "options": [
-      "It will look for an exact match.",
-      "It will return the column index number.",
-      "It will look for the closest value in Column 1.",
-      "It will return an error."
+      "Hard-Sell",
+      "Mediation",
+      "Soft-Sell",
+      "Pattern-Sell"
     ],
     "correct": 2,
-    "explanation": "Range\_lookup returns TRUE if it will look for the closest value in Column 1."
+    "explanation": "Soft-Sell is defined in the reviewer as being emotional, indirect, and associative."
   },
   {
     "id": 13,
-    "question": "Which function combines the values from two or more cells into another cell, storing up to 255 text strings?",
+    "question": "Which advertising approach is described as direct and forceful, utilizing an explicit message?",
     "options": [
-      "VLOOKUP()",
-      "CONCATENATE()",
-      "MAX()",
-      "Text to Columns"
+      "Soft-Sell",
+      "Hard-Sell",
+      "Electronic Media",
+      "Traditional Media"
     ],
     "correct": 1,
-    "explanation": "The CONCATENATE() function combines two or more text strings/values from cells."
+    "explanation": "Hard-Sell is characterized by direct, forceful communication and explicit messaging."
   },
   {
     "id": 14,
-    "question": "Which Excel feature is described as the opposite of the CONCATENATE() function, separating the contents of one column into two or more columns?",
+    "question": "What were the earliest human carvings on stone, dating back to 30,000 BCE - 10,000 BCE?",
     "options": [
-      "Data Validation",
-      "Conditional Formatting",
-      "Graphs",
-      "Text to Columns"
+      "Rosetta Stone",
+      "Petroglyphs",
+      "Telegraph",
+      "Printing Press"
     ],
-    "correct": 3,
-    "explanation": "Text to Columns is the opposite of the concatenate function, separating contents of one column into two or more."
+    "correct": 1,
+    "explanation": "Petroglyphs are identified as the earliest human carvings on stone in the media developments timeline."
   },
   {
     "id": 15,
-    "question": "The feature that limits what particular value can be entered in a cell to ensure it is reasonable and valid is called:",
+    "question": "In what year was the Rosetta Stone discovered/created to help decode Egyptian writing?",
     "options": [
-      "Conditional Formatting",
-      "Data Validation",
-      "Graphs",
-      "Cell Content"
+      "30,000 BCE",
+      "1440 CE",
+      "196 BCE",
+      "1837 CE"
     ],
-    "correct": 1,
-    "explanation": "Data Validation is a feature that limits what value can be entered in a cell to ensure it is reasonable and valid."
+    "correct": 2,
+    "explanation": "The Rosetta Stone is dated to 196 BCE in the media development timeline."
   },
   {
     "id": 16,
-    "question": "The MAX() function searches for the highest value in a specified:",
+    "question": "Who invented the Printing Press around 1440 CE, marking the start of mass printing?",
     "options": [
-      "Cell",
-      "Row",
-      "Range",
-      "Column"
+      "Johannes Gutenberg",
+      "Samuel Morse",
+      "Alexander Graham Bell",
+      "Tim Berners-Lee"
     ],
-    "correct": 2,
-    "explanation": "The MAX() function searches for the highest value in an array (range)."
+    "correct": 0,
+    "explanation": "Johannes Gutenberg is credited with the invention of the Printing Press in approximately 1440 CE."
   },
   {
     "id": 17,
-    "question": "The feature that enables users to highlight specific cells with desired formatting is known as:",
+    "question": "During the 1986 Philippine Revolution, which media form was significant through the use of newspapers like 'Kalayaan' and the writings of José Rizal?",
     "options": [
-      "Text to Columns",
-      "Data Validation",
-      "Conditional Formatting",
-      "Workbook Views"
+      "Electronic Media",
+      "Print Media",
+      "Radio",
+      "New Media"
     ],
-    "correct": 2,
-    "explanation": "Conditional Formatting enables users to highlight specific cells with the desired formatting."
+    "correct": 1,
+    "explanation": "The reviewer highlights the role of Print Media (newspapers and writings) in the Philippine Revolution."
   },
   {
     "id": 18,
-    "question": "Which image format supports 16.7 million colors and is suitable for full-color photographic images?",
+    "question": "Who is credited with inventing the Telegraph in 1837, the first electronic communication?",
     "options": [
-      ".GIF",
-      ".PNG",
-      ".JPG",
-      "CLIP ART"
+      "Alexander Graham Bell",
+      "Lumiere Brothers",
+      "Samuel Morse",
+      "Johannes Gutenberg"
     ],
     "correct": 2,
-    "explanation": ".JPG (Joint Photographic Experts Group) supports 16.7 million colors and is suitable for full-color photographic images."
+    "explanation": "Samuel Morse invented the Telegraph in 1837, representing the first form of electronic communication."
   },
   {
     "id": 19,
-    "question": "Which image format is relatively small in file size and supports transparency?",
+    "question": "In what year was the Telephone invented by Alexander Graham Bell?",
     "options": [
-      ".GIF",
-      ".PNG",
-      ".JPG",
-      "CLIP ART"
+      "1837",
+      "1876",
+      "1895",
+      "1901"
     ],
-    "correct": 0,
-    "explanation": ".GIF (Graphics Interchange Format) images are relatively small in file size and supports transparency."
+    "correct": 1,
+    "explanation": "The Telephone was invented by Alexander Graham Bell in 1876."
   },
   {
     "id": 20,
-    "question": "Which image format is built around the capabilities of GIF, supports transparency, but **not** animation?",
+    "question": "When did mass broadcasting begin for the Radio?",
     "options": [
-      ".JPG",
-      "CLIP ART",
-      ".PNG",
-      ".GIF"
+      "Early 1800s",
+      "Around 1901-1920",
+      "1876",
+      "1969"
     ],
-    "correct": 2,
-    "explanation": ".PNG (Portable Graphics Network) is built around the capabilities of GIF, supports transparency, but not animation."
+    "correct": 1,
+    "explanation": "Radio mass broadcasting began in the early 1900s, specifically around 1901-1920."
   },
   {
     "id": 21,
-    "question": "What type of material refers to line art drawings or images used as a generic representation for ideas and objects?",
+    "question": "Who were the inventors of the Motion Picture in 1895?",
     "options": [
-      "PICTURES",
-      "CLIP ART",
-      "SMART ART",
-      "SCREENSHOTS"
+      "Lumiere Brothers",
+      "Samuel Morse",
+      "Johannes Gutenberg",
+      "Marshall McLuhan"
     ],
-    "correct": 1,
-    "explanation": "CLIP ART refers to line art drawings or images used as a generic representation for ideas and objects."
+    "correct": 0,
+    "explanation": "The Lumiere Brothers showed the first films to the public in 1895."
   },
   {
     "id": 22,
-    "question": "Which Wrap Text option in Word causes the image to be located directly at the position where the text is located?",
+    "question": "What was the precursor to the modern internet, established in 1969?",
     "options": [
-      "Square",
-      "In front of the text",
-      "In line with the text",
-      "Top and Bottom"
+      "WWW",
+      "ARPANET",
+      "Telegraph",
+      "New Media"
     ],
-    "correct": 2,
-    "explanation": "The 'In line with the text' option means the image is located where the text is located."
+    "correct": 1,
+    "explanation": "ARPANET was the network established in 1969 that eventually led to the Internet."
   },
   {
     "id": 23,
-    "question": "Which Wrap Text option causes the image to be located behind the text?",
+    "question": "Who invented the World Wide Web (WWW) in 1989?",
     "options": [
-      "In front of the text",
-      "Behind text",
-      "Tight",
-      "Through"
+      "Tim Berners-Lee",
+      "Marshall McLuhan",
+      "Samuel Morse",
+      "Alexander Graham Bell"
     ],
-    "correct": 1,
-    "explanation": "The 'Behind text' option locates the image behind the text."
+    "correct": 0,
+    "explanation": "Tim Berners-Lee is the inventor of the World Wide Web in 1989."
   },
   {
     "id": 24,
-    "question": "Which Wrap Text option causes the text to surround the image with a smaller margin between the text and the image?",
+    "question": "What period is associated with 'New Media' and the rise of social media?",
     "options": [
-      "Square",
-      "Through",
-      "Top and Bottom",
-      "Tight"
+      "1920s",
+      "1969",
+      "2000s - present",
+      "1895"
     ],
-    "correct": 3,
-    "explanation": "The 'Tight' option causes the text to surround the image, but the margin between the image and text is smaller."
+    "correct": 2,
+    "explanation": "New Media refers to the period from the 2000s to the present, characterized by social media and digital platforms."
   },
   {
     "id": 25,
-    "question": "The default text wrapping for **Shapes** when inserted into a Word document is:",
+    "question": "According to the reviewer, what accounts for the 'human factor' in technology's influence?",
     "options": [
-      "Square",
-      "In line with the text",
-      "Behind text",
-      "In Front of Text"
+      "Hard Determinism",
+      "Mediation",
+      "Soft Determinism",
+      "Mechanical Processes"
     ],
-    "correct": 3,
-    "explanation": "The default text wrapping for Shapes is In Front of Text."
+    "correct": 2,
+    "explanation": "One of the accounts of Soft Determinism is that it considers how individuals and societies respond to media technologies."
   },
   {
     "id": 26,
-    "question": "The placeholder for texts that appears at the bottom margin of each page in a document is the:",
+    "question": "The term 'Scale' in McLuhan’s theory refers to changes in:",
     "options": [
-      "Footnote",
-      "Endnote",
-      "Header",
-      "Footer"
+      "How fast things happen",
+      "How big or widespread things become",
+      "The price of the technology",
+      "The volume of the data"
     ],
-    "correct": 3,
-    "explanation": "The Footer is the placeholder for texts at the bottom margin of each page."
+    "correct": 1,
+    "explanation": "Scale refers to the extent or reach of human affairs introduced by technology."
   },
   {
     "id": 27,
-    "question": "Which citation note consists of short citations used directly at the bottom of the page where the text is supported?",
+    "question": "Which of these is NOT a characteristic of traditional media according to the reviewer?",
     "options": [
-      "Endnote",
-      "Footnote",
-      "Header",
-      "Page Number"
+      "One-way communication",
+      "Audience receives information",
+      "Interactive",
+      "Includes magazines and radio"
     ],
-    "correct": 1,
-    "explanation": "A Footnote consists of short citations used directly at the bottom of the page where the text supported by the note is located."
+    "correct": 2,
+    "explanation": "Traditional media is defined as one-way communication; interactivity is a trait of electronic/new media."
   },
   {
     "id": 28,
-    "question": "Which citation note consists of long and more detailed citations located at the end of the document?",
+    "question": "A typewriter is an example of which kind of media?",
     "options": [
-      "Endnote",
-      "Footnote",
-      "Header",
-      "Footer"
+      "Traditional",
+      "Electronic",
+      "Mechanical",
+      "Social"
     ],
-    "correct": 0,
-    "explanation": "Endnotes are long and more detailed citations located at the end of the documents."
+    "correct": 2,
+    "explanation": "The typewriter is listed under Mechanical Media because it uses physical/manual mechanisms without electricity."
   },
   {
     "id": 29,
-    "question": "Adding columns in a Word document is a technique used in newspaper publishing to prevent an article from looking:",
+    "question": "Mediation suggests that reality can only be encountered in its ________ form.",
     "options": [
-      "Too short and brief",
-      "Very heavy and long",
-      "Disorganized and confusing",
-      "Too technical"
+      "Materially contained",
+      "Digitalized",
+      "Abstract",
+      "Unbiased"
     ],
-    "correct": 1,
-    "explanation": "Add Columns is a technique used in newspaper publishing so that an article will not look very heavy and long."
+    "correct": 0,
+    "explanation": "The reviewer states that ideas and reality are encountered in their 'materially contained form' through mediation."
   },
   {
     "id": 30,
-    "question": "To completely remove page numbers from a Word document, which option should be chosen from the Page Number menu?",
+    "question": "Soft Determinism accounts for the interplay between media technologies and the _________.",
     "options": [
-      "Format Page Numbers...",
-      "Remove Page Numbers",
-      "Current Position",
-      "Bottom of Page"
+      "Electrical circuits",
+      "Human factor",
+      "Mechanical parts",
+      "Advertising revenue"
     ],
     "correct": 1,
-    "explanation": "If you want to completely remove page numbers, you may choose Remove Page Numbers."
+    "explanation": "Soft Determinism focuses on the relationship and interplay between technology and human influence."
   },
   {
     "id": 31,
-    "question": "What feature is a symbol, text, logo, or pattern that is superimposed onto another symbol, text, or logo within a document?",
+    "question": "What is the primary characteristic of 'New Media'?",
     "options": [
-      "Page Border",
-      "Watermark",
-      "Page Color",
-      "Mail Merge"
+      "One-way broadcasting",
+      "Social media and interactivity",
+      "Manual printing",
+      "Stone carvings"
     ],
     "correct": 1,
-    "explanation": "Watermark is a symbol, text, logo, or a pattern that is superimposed onto another symbol, text, logo, within a document."
+    "explanation": "New Media is associated with the 2000s and platforms like social media that allow global interaction."
   },
   {
     "id": 32,
-    "question": "Which component of Mail Merge contains the main body of the message to be conveyed or sent?",
+    "question": "Which of the following describes 'Mediatization'?",
     "options": [
-      "Source Document (Data File)",
-      "Form Document",
-      "Label Generation",
-      "Merge Field"
+      "The simple act of sending a letter",
+      "The world reconfigured by Media",
+      "Painting a picture of a landscape",
+      "Telling a story to a friend"
     ],
     "correct": 1,
-    "explanation": "The Form Document contains the main body of the message to be conveyed or sent."
+    "explanation": "Mediatization involves the world being reconfigured by the structural conditions of media technologies."
   },
   {
     "id": 33,
-    "question": "What is the primary content of the Source Document (Data File) in Mail Merge?",
+    "question": "McLuhan’s 'Pattern' refers to changes in how people _________.",
     "options": [
-      "The main message body",
-      "Individual information or data that needs to be merged",
-      "The final merged letters",
-      "The formatting and layout of the page"
+      "Dress",
+      "Behave or interact",
+      "Pay for goods",
+      "Read the news"
     ],
     "correct": 1,
-    "explanation": "The Source Document (Data File) contains individual information or data that needs to be merged with the form document."
+    "explanation": "In the reviewer's breakdown, Pattern refers to changes in human behavior or interaction."
   },
   {
     "id": 34,
-    "question": "Which step in creating a simple mail merge involves choosing 'Select Recipients' and then selecting 'Type New List'?",
+    "question": "A firm belief that technologies in media have a deterministic influence on society without human choice is closest to:",
     "options": [
-      "Step 2",
-      "Step 4",
-      "Step 6",
-      "Step 22"
+      "Soft Determinism",
+      "Hard Determinism",
+      "Mediation",
+      "Soft-Sell"
     ],
-    "correct": 2,
-    "explanation": "Step 6 is: On the Mailings tab in the Start Mail Merge group, choose Select Recipients—Type New List."
+    "correct": 1,
+    "explanation": "Hard Determinism views technology as having a direct and unstoppable influence on society."
   },
   {
     "id": 35,
-    "question": "In the Mail Merge process, once the ALL CAPS placeholder text is selected in the main document, the next step is to click which command button?",
+    "question": "The first electronic communication device mentioned in the timeline is the:",
     "options": [
-      "Finish & Merge",
-      "Preview Results",
-      "Customize Columns",
-      "Insert Merge Field"
+      "Telephone",
+      "Radio",
+      "Telegraph",
+      "Television"
     ],
-    "correct": 3,
-    "explanation": "After selecting the placeholder field (ALL CAPS), click the Insert Merge Field command button."
+    "correct": 2,
+    "explanation": "The Telegraph (1837) is listed as the first electronic communication device."
   },
   {
     "id": 36,
-    "question": "Which of the following is a guide in making an effective presentation related to the **6x7 rule**?",
+    "question": "What is 'Mediation' primarily concerned with?",
     "options": [
-      "Minimalism",
-      "Simplicity",
-      "Clarity",
-      "Contrast"
+      "Developing new apps",
+      "Representing or conveying something",
+      "Selling products via hard-sell",
+      "Repairing mechanical devices"
     ],
     "correct": 1,
-    "explanation": "Simplicity suggests using bullet points and short sentences and following the 6x7 rule (6 lines and 7 words per line)."
+    "explanation": "Mediation is the process of representing or conveying ideas and reality."
   },
   {
     "id": 37,
-    "question": "What presentation guide advises against using a different background for every slide and stresses uniform fonts and colors?",
+    "question": "Electronic media rely on ________ or digital technology.",
     "options": [
-      "Visual-Orientedness",
-      "Consistency",
-      "Minimalism",
-      "Clarity"
+      "Physical labor",
+      "Stone tools",
+      "Electricity",
+      "Manual gears"
     ],
-    "correct": 1,
-    "explanation": "Consistency advises that slides should be uniform, and fonts and colors should be consistent with every slide."
+    "correct": 2,
+    "explanation": "Electronic media is characterized by its use of electricity and digital signals."
   },
   {
     "id": 38,
-    "question": "The guide **Contrast** in presentation making primarily focuses on ensuring:",
+    "question": "Traditional media is often described as ________ communication.",
     "options": [
-      "The use of animations",
-      "The readability of the presentation",
-      "The number of slides is low",
-      "The images are relevant"
+      "Two-way",
+      "Interactive",
+      "One-way",
+      "Non-verbal"
     ],
-    "correct": 1,
-    "explanation": "Contrast states that contrasting colors must be used for text and background to make the presentation readable."
+    "correct": 2,
+    "explanation": "The reviewer defines Traditional Media as one-way communication where the audience only receives info."
   },
   {
     "id": 39,
-    "question": "What feature enables a user to apply a predesigned slide, removing the user the task of designing the presentation, allowing them to focus on content?",
+    "question": "Who invented the telephone?",
     "options": [
-      "Animations",
-      "Transitions",
-      "Slide Master",
-      "Header & Footer"
+      "Samuel Morse",
+      "Alexander Graham Bell",
+      "Tim Berners-Lee",
+      "Johannes Gutenberg"
     ],
-    "correct": 2,
-    "explanation": "Slide Master is the most user-friendly feature that enables a user to apply a predesigned slide, allowing the user to focus on the contents."
+    "correct": 1,
+    "explanation": "Alexander Graham Bell is the inventor of the telephone (1876)."
   },
   {
     "id": 40,
-    "question": "Which type of animation shows how the object or text will appear on the slide?",
+    "question": "Johannes Gutenberg is associated with which media development?",
     "options": [
-      "Exit",
-      "Entrance",
-      "Emphasis",
-      "Motion Path"
+      "Telegraph",
+      "Radio",
+      "Printing Press",
+      "Internet"
     ],
-    "correct": 1,
-    "explanation": "Entrance animation shows how the object or text will appear on the slide."
+    "correct": 2,
+    "explanation": "Gutenberg is famous for the invention of the Printing Press."
   },
   {
     "id": 41,
-    "question": "Which type of animation allows an object or text to move from one point to another in the slide?",
+    "question": "When did ARPANET start?",
     "options": [
-      "Exit",
-      "Emphasis",
-      "Entrance",
-      "Motion Path"
+      "1989",
+      "1969",
+      "2000",
+      "1837"
     ],
-    "correct": 3,
-    "explanation": "Motion Path shows how an object or text will move from one point to another in the slide."
+    "correct": 1,
+    "explanation": "ARPANET, the precursor to the internet, was established in 1969."
   },
   {
     "id": 42,
-    "question": "What timing group option allows the presenter to move to the next slide when the mouse is clicked, overriding the set time from the 'After' option?",
+    "question": "Which sell is 'associative in nature'?",
     "options": [
-      "Duration",
-      "Delay",
-      "On Mouse Click",
-      "With Previous"
+      "Hard-Sell",
+      "Soft-Sell",
+      "Direct-Sell",
+      "Media-Sell"
     ],
-    "correct": 2,
-    "explanation": "The 'On Mouse Click' option allows the presenter to move to the next slide when the mouse is clicked, even before the end of the time set in the After option."
+    "correct": 1,
+    "explanation": "The reviewer notes that Soft-Sell is associative in nature."
   },
   {
     "id": 43,
-    "question": "What is the term for setting the length of time a transition effect will animate?",
+    "question": "Which sell utilizes an 'explicit message'?",
     "options": [
-      "Delay",
-      "Duration",
-      "Timing",
-      "After"
+      "Soft-Sell",
+      "Hard-Sell",
+      "Mediation",
+      "Mediatization"
     ],
     "correct": 1,
-    "explanation": "Duration sets the length of time the transition effect will animate."
+    "explanation": "Hard-Sell is characterized by its use of explicit, direct messages."
   },
   {
     "id": 44,
-    "question": "Which type of timing makes an object or text appear together with the previous object or text?",
+    "question": "Petroglyphs are carved on what material?",
     "options": [
-      "On Click",
-      "With Previous",
-      "After Previous",
-      "Delay"
+      "Wood",
+      "Stone",
+      "Paper",
+      "Metal"
     ],
     "correct": 1,
-    "explanation": "The 'With Previous' timing option means the object or text will appear together with the previous object or text."
+    "explanation": "Petroglyphs are defined as early human carvings on stone."
   },
   {
     "id": 45,
-    "question": "Transitions are used to set effects when:",
+    "question": "In the timeline, what happened in 1895?",
     "options": [
-      "Objects appear on a slide",
-      "Transitioning to other slides",
-      "An object moves across the slide",
-      "Focusing attention on an object"
+      "Invention of Radio",
+      "Discovery of Rosetta Stone",
+      "First films shown by Lumiere Brothers",
+      "Invention of Telegraph"
     ],
-    "correct": 1,
-    "explanation": "Transitions allow the user to set effects when transitioning to other slides."
+    "correct": 2,
+    "explanation": "The year 1895 marks when the Lumiere Brothers showed the first films."
   },
   {
     "id": 46,
-    "question": "What principle of graphics and layout refers to evenly arranged elements throughout the screen?",
+    "question": "The term 'Scale' in McLuhan's aphorism refers to changes in:",
     "options": [
-      "Emphasis",
-      "Proximity",
-      "Balance",
-      "Alignment"
+      "Volume",
+      "Reach or widespreadness",
+      "Speed",
+      "Behavior"
     ],
-    "correct": 2,
-    "explanation": "Balance refers to evenly arranged elements throughout the screen."
+    "correct": 1,
+    "explanation": "Scale refers to how big or widespread things become due to technology."
   },
   {
     "id": 47,
-    "question": "What principle involves giving more weight or focus to some elements on the screen to focus attention on a certain part?",
+    "question": "Which of these is an example of Electronic Media?",
     "options": [
-      "Balance",
-      "Emphasis",
-      "Proportion",
-      "Variety"
+      "Printing Press",
+      "Typewriter",
+      "Smartphone",
+      "Stone carvings"
     ],
-    "correct": 1,
-    "explanation": "Emphasis involves giving more weight or focus to some elements on the screen."
+    "correct": 2,
+    "explanation": "Smartphones use electricity and digital signals, classifying them as Electronic Media."
   },
   {
     "id": 48,
-    "question": "Which principle suggests that closely related elements should be placed together so they will be perceived as one unit of design?",
+    "question": "What does Soft Determinism account for regarding media technologies in their early stages?",
     "options": [
-      "Alignment",
-      "Pattern, Repetition, and Rhythm",
-      "Proximity and Unity",
-      "Proportion"
+      "High costs",
+      "Subtly constituting the environment",
+      "Physical weight",
+      "Direct control"
     ],
-    "correct": 2,
-    "explanation": "Proximity and Unity suggests that closely related elements should be placed together so that they will be perceived as one unit of design."
+    "correct": 1,
+    "explanation": "Soft Determinism accounts for how technologies subtly constitute the environment as they begin to influence society."
   },
   {
     "id": 49,
-    "question": "What type of graphics is used to represent information, statistical data, or knowledge in a graphical manner, usually done in a creative way?",
+    "question": "The 'Philippine Revolution' entry in the timeline highlights the use of:",
     "options": [
-      "Clip Art",
-      "Infographics",
-      "Smart Art",
-      "Charts"
+      "Television",
+      "Social Media",
+      "Print Media",
+      "Radio"
     ],
-    "correct": 1,
-    "explanation": "Infographics, also known as Information graphics, are used to represent information, statistical data, or knowledge in a graphical manner, usually done in a creative way."
+    "correct": 2,
+    "explanation": "The reviewer specifically mentions print media like 'Kalayaan' during the Philippine Revolution."
   },
   {
     "id": 50,
-    "question": "One of the reasons to use Infographics is to present information in a way that is compact and easy to:",
+    "question": "Marshall McLuhan was a famous:",
     "options": [
-      "Animate",
-      "Visualize",
-      "Customize",
-      "Comprehend"
-    ],
-    "correct": 3,
-    "explanation": "A reason to use Infographics is to present in a way that is compact and easy to comprehend."
-  },
-  {
-    "id": 51,
-    "question": "It is an element of Infographics that refers to the use of Time frames, statistics, and references.",
-    "options": [
-      "Visual Elements",
-      "Context Elements",
-      "Content Elements",
-      "Knowledge Elements"
-    ],
-    "correct": 2,
-    "explanation": "Content Elements refer to the use of Time frames, statistics, and references in Infographics."
-  },
-  {
-    "id": 52,
-    "question": "It is an element of Infographics that refers to the use of color coding and graphics",
-    "options": [
-      "Visual Elements",
-      "Context Elements",
-      "Content Elements",
-      "Knowledge Elements"
+      "Media Theorist",
+      "Physicist",
+      "Politician",
+      "Painter"
     ],
     "correct": 0,
-    "explanation": "Visual Elements refer to the use of color coding and graphics in Infographics."
-  },
-  {
-    "id": 53,
-    "question": "It is a type of Infographics that use arrows to direct the viewer's attention to another aspect of the infographics.",
-    "options": [
-      "Chronological",
-      "Cause and Effect",
-      "Quantitative",
-      "Directional"
-    ],
-    "correct": 3,
-    "explanation": "Directional Infographics use arrows to direct the viewer's attention to another aspect of the infographics."
-  },
-  {
-    "id": 54,
-    "question": "What is number 1 in the image below?",
-    "image": "images/etech/Etech 1.png",
-    "options": [
-      "Quick Access Toolbar",
-      "Ribbon",
-      "Title Bar",
-      "Status Bar"
-    ],
-    "correct": 0,
-    "explanation": "Number 1 shows the Quick Access Toolbar."
-  },
-  {
-    "id": 55,
-    "question": "What is number 2 in the image below?",
-    "image": "images/etech/Etech 1.png",
-    "options": [
-      "Quick Access Toolbar",
-      "Ribbon",
-      "Title Bar",
-      "Status Bar"
-    ],
-    "correct": 2,
-    "explanation": "Number 2 shows the Title Bar."
-  },
-  {
-    "id": 56,
-    "question": "What is number 3 in the image below?",
-    "image": "images/etech/Etech 1.png",
-    "options": [
-      "Quick Access Toolbar",
-      "Name Box",
-      "Formula Bar",
-      "Ribbon"
-    ],
-    "correct": 3,
-    "explanation": "Number 3 shows the Ribbon."
-  },
-  {
-    "id": 57,
-    "question": "What is number 4 in the image below?",
-    "image": "images/etech/Etech 1.png",
-    "options": [
-      "Quick Access Toolbar",
-      "Name Box",
-      "Formula Bar",
-      "Ribbon"
-    ],
-    "correct": 2,
-    "explanation": "Number 4 shows the Formula Bar."
-  },
-  {
-    "id": 58,
-    "question": "What is number 5 in the image below?",
-    "image": "images/etech/Etech 1.png",
-    "options": [
-      "Quick Access Toolbar",
-      "Name Box",
-      "Formula Bar",
-      "Ribbon"
-    ],
-    "correct": 1,
-    "explanation": "Number 5 shows the Name Box."
-  },
-  {
-    "id": 59,
-    "question": "What is number 6 in the image below?",
-    "image": "images/etech/Etech 1.png",
-    "options": [
-      "Column Header",
-      "Row Header",
-      "Worksheet Tab",
-      "Cells"
-    ],
-    "correct": 0,
-    "explanation": "Number 6 shows the Column Header."
-  },
-  {
-    "id": 60,
-    "question": "What is number 7 in the image below?",
-    "image": "images/etech/Etech 1.png",
-    "options": [
-      "Column Header",
-      "Row Header",
-      "Worksheet Tab",
-      "Cells"
-    ],
-    "correct": 1,
-    "explanation": "Number 7 shows the Row Header."
-  },
-  {
-    "id": 61,
-    "question": "What is number 8 in the image below?",
-    "image": "images/etech/Etech 1.png",
-    "options": [
-      "Columns",
-      "Rows",
-      "Formula Bar",
-      "Cells"
-    ],
-    "correct": 3,
-    "explanation": "Number 8 shows the Cells."
-  },
-  {
-    "id": 62,
-    "question": "What is number 9 in the image below?",
-    "image": "images/etech/Etech 1.png",
-    "options": [
-      "Workbook Views",
-      "Zoom Control",
-      "Worksheet Tab",
-      "Status Bar"
-    ],
-    "correct": 0,
-    "explanation": "Number 9 shows the Workbook Views."
-  },
-  {
-    "id": 62,
-    "question": "What is number 10 in the image below?",
-    "image": "images/etech/Etech 1.png",
-    "options": [
-      "Workbook Views",
-      "Zoom Control",
-      "Worksheet Tab",
-      "Status Bar"
-    ],
-    "correct": 1,
-    "explanation": "Number 10 shows the Zoom Control."
+    "explanation": "Marshall McLuhan is recognized as a media theorist known for his work on media and technology."
   }
-
-
 ];
 
 // General Mathematics Quiz Data - 35 Questions
