@@ -3163,305 +3163,303 @@ const generalMathematicsQuestions = [
 const physicalEducationQuestions = [
   {
     "id": 1,
-    "question": "What is the fastest swimming stroke, also known as the Front Crawl?",
+    "question": "In the word Taekwondo, what does the specific term 'Tae' mean?",
     "options": [
-      "Breaststroke",
-      "Backstroke",
-      "Freestyle",
-      "Butterfly"
+      "Fist or Fight",
+      "Way or Discipline",
+      "Foot, Leg, or to step on",
+      "Hand and Arm"
     ],
     "correct": 2,
-    "explanation": "Freestyle (or Front Crawl) is known as the fastest and most efficient swimming stroke used in competition."
+    "explanation": "According to the reviewer, 'Tae' translates to 'Foot', 'Leg', or 'to step on'[cite: 2, 3]."
   },
   {
     "id": 2,
-    "question": "Which swimming stroke is characterized by simultaneous arm movements followed by a frog-like kick?",
+    "question": "What is the literal translation of the term 'Kwon'?",
     "options": [
-      "Butterfly",
-      "Backstroke",
-      "Front Crawl",
-      "Breaststroke"
+      "Foot",
+      "Fist or Fight",
+      "Way",
+      "Stance"
     ],
-    "correct": 3,
-    "explanation": "The Breaststroke is characterized by simultaneous arm movements and a frog-like kick."
+    "correct": 1,
+    "explanation": "The term 'Kwon' means 'Fist' or 'Fight'[cite: 4, 5]."
   },
   {
     "id": 3,
-    "question": "What swimming stroke is shown below?",
-    "image": "images/PE/PE 2.png",
+    "question": "Which part of the word Taekwondo refers to the 'Way' or 'Discipline'?",
     "options": [
-      "Backstroke",
-      "Breaststroke",
-      "Front Crawl",
-      "Butterfly"
+      "Tae",
+      "Kwon",
+      "Do",
+      "Seogi"
     ],
-    "correct": 1,
-    "explanation": "Breaststroke is characterized the image shown above."
+    "correct": 2,
+    "explanation": "The syllable 'Do' means 'Way' or 'Discipline'[cite: 6, 7]."
   },
   {
     "id": 4,
-    "question": "Which kick movement is primarily used in the Freestyle (Front Crawl) stroke?",
+    "question": "Which program of Taekwondo refers to 'Forms'?",
     "options": [
-      "Scissors kick",
-      "Dolphin kick",
-      "Frog-like kick",
-      "Flutter kick"
+      "Kyorugi",
+      "Kyukpa",
+      "Poomsae",
+      "Chagi"
     ],
-    "correct": 3,
-    "explanation": "The Freestyle stroke uses the Flutter kick movement."
+    "correct": 2,
+    "explanation": "Poomsae is the program of Taekwondo that focuses on forms[cite: 9]."
   },
   {
     "id": 5,
-    "question": "The **Backstroke** is characterized by what type of arm movement?",
+    "question": "The program of Taekwondo known as 'Kyorugi' involves which of the following?",
     "options": [
-      "Simultaneous pull-and-recovery",
-      "Alternate pull underwater, recovery above water",
-      "Pull from the hip to overhead only",
-      "Pull from overhead to the hip only"
+      "Breaking",
+      "Forms",
+      "Stances",
+      "Sparring"
     ],
-    "correct": 1,
-    "explanation": "Backstroke uses alternate arm movement, where one pulls underwater from overhead to the hip, while the other recovers above water from the hip to overhead."
+    "correct": 3,
+    "explanation": "Kyorugi is defined as sparring[cite: 10]."
   },
   {
     "id": 6,
-    "question": "The **Butterfly** stroke is known for which characteristic kick movement?",
+    "question": "If you are performing 'Kyukpa', what are you doing?",
     "options": [
-      "Flutter kick",
-      "Whip kick",
-      "Undulating dolphin kick",
-      "Scissor kick"
+      "Sparring",
+      "Breaking",
+      "Stretching",
+      "Counting"
     ],
-    "correct": 2,
-    "explanation": "The Butterfly technique is characterized by simultaneous arm movement and the undulating dolphin kick."
+    "correct": 1,
+    "explanation": "Kyukpa is the Taekwondo program for breaking[cite: 11]."
   },
   {
     "id": 7,
-    "question": "What challenging swimming technique is characterized by simultaneous arm movement and an undulating dolphin kick?",
+    "question": "Which of these is NOT listed as one of the 5 Tenets of Taekwondo?",
     "options": [
-      "Front Crawl",
-      "Backstroke",
-      "Breaststroke",
-      "Butterfly"
+      "Self-Confidence",
+      "Speed",
+      "Modesty",
+      "Indomitable Spirit"
     ],
-    "correct": 3,
-    "explanation": "The Butterfly stroke is described as a challenging swimming technique."
+    "correct": 1,
+    "explanation": "The 5 tenets are Self-Confidence, Modesty, Indomitable Spirit, Perseverance, and Etiquette. Speed is not one of them[cite: 12, 13, 14, 15, 16, 17]."
   },
   {
     "id": 8,
-    "question": "What swimming technique is shown below?",
-    "image": "images/PE/PE 1.png",
+    "question": "Which tenet emphasizes the ability to keep going despite difficulties or delays in achieving success?",
     "options": [
-      "Streamline",
-      "Diving",
-      "Sculling",
-      "Flip Turn"
+      "Modesty",
+      "Perseverance",
+      "Etiquette",
+      "Self-Confidence"
     ],
-    "correct": 0,
-    "explanation": "The swimming technique shown in the image above is Streamline."
+    "correct": 1,
+    "explanation": "Perseverance is one of the 5 core tenets mentioned in the reviewer[cite: 16]."
   },
   {
     "id": 9,
-    "question": "What swimming skill involves curling your body forward toward the water until you fall in, headfirst?",
+    "question": "When the command 'Charyeut' is given, what stance should the practitioner take?",
     "options": [
-      "Flip Turn",
-      "Streamline",
-      "Diving",
-      "Front Crawl"
+      "Ready Stance",
+      "Attention Stance",
+      "Forward Stance",
+      "Walking Stance"
     ],
-    "correct": 2,
-    "explanation": "Diving involves curling your body forward toward the water until you fall in, headfirst."
+    "correct": 1,
+    "explanation": "Charyeut is the command for the Attention Stance[cite: 19]."
   },
   {
     "id": 10,
-    "question": "What is the body position that minimizes drag and maximizes efficiency, used underwater in every stroke?",
+    "question": "What is the Korean command for 'Bow'?",
     "options": [
-      "Sculling",
-      "Flip Turn",
-      "Streamline",
-      "Front Crawl"
+      "Shijak",
+      "Joonbi",
+      "Kyung-rye",
+      "Keuman"
     ],
     "correct": 2,
-    "explanation": "Streamline is a body position that minimizes drag and maximizes efficiency, and is used underwater in every stroke."
+    "explanation": "Kyung-rye is the command used to signal a bow[cite: 19]."
   },
   {
     "id": 11,
-    "question": "Which of the following is an alternate name for the Freestyle swimming stroke?",
+    "question": "If an instructor says 'Shijak', what should you do?",
     "options": [
-      "Butterfly",
-      "Backstroke",
-      "Breaststroke",
-      "Front Crawl"
+      "Stop",
+      "Begin",
+      "Thank them",
+      "Turn around"
     ],
-    "correct": 3,
-    "explanation": "Freestyle is also known as the Front Crawl."
+    "correct": 1,
+    "explanation": "Shijak is the basic command to 'Begin'[cite: 20]."
   },
   {
     "id": 12,
-    "question": "A turn used in backstroke and freestyle where the swimmer rotates in the water without touching the wall is called a:",
+    "question": "What does the command 'Keuman' mean?",
     "options": [
-      "Diving Turn",
-      "Breaststroke Turn",
-      "Flip Turn",
-      "Butterfly Turn"
+      "Attention",
+      "Ready",
+      "Stop",
+      "Thank you"
     ],
     "correct": 2,
-    "explanation": "The Flip Turn is used in backstroke and freestyle events where the swimmer rotates in the water without touching the wall."
+    "explanation": "Keuman is the command to 'Stop'[cite: 22]."
   },
   {
     "id": 13,
-    "question": "What is the length of an Olympic-sized pool in meters?",
+    "question": "How do you say 'Thank you' in Korean based on the Taekwondo commands list?",
     "options": [
-      "25 meters",
-      "50 meters",
-      "100 meters",
-      "2 meters"
+      "Hana",
+      "Seht",
+      "Kamshamida",
+      "Kyung-rye"
     ],
-    "correct": 1,
-    "explanation": "An Olympic-sized pool is 50 meters in length."
+    "correct": 2,
+    "explanation": "Kamshamida means 'Thank you'[cite: 21]."
   },
   {
     "id": 14,
-    "question": "How many lanes does an Olympic-sized pool have in total?",
+    "question": "In basic counting, which Korean word represents the number 'Five'?",
     "options": [
-      "6",
-      "8",
-      "10",
-      "4"
+      "Dhul",
+      "Neht",
+      "Da-seot",
+      "Yeo-seot"
     ],
-    "correct": 1,
-    "explanation": "The Olympic-sized pool has 8 lanes in total."
+    "correct": 2,
+    "explanation": "Da-seot is the Korean word for Five[cite: 28]."
   },
   {
     "id": 15,
-    "question": "What is the shortest distance swimming event in competitive swimming?",
+    "question": "Which number does the word 'Yeo-dul' represent?",
     "options": [
-      "100 meters",
-      "25 meters",
-      "50 meters",
-      "200 meters"
+      "Six",
+      "Seven",
+      "Eight",
+      "Nine"
     ],
     "correct": 2,
-    "explanation": "The shortest distance swimming event in competitive swimming is 50 meters."
+    "explanation": "Yeo-dul represents the number Eight[cite: 30]."
   },
   {
     "id": 16,
-    "question": "In a competitive swimming event, how is the champion determined?",
+    "question": "What is the Korean word for the number 'Ten'?",
     "options": [
-      "The swimmer with the most efficient technique",
-      "The swimmer with the fastest time",
-      "The swimmer with the fewest disqualifications",
-      "The swimmer who uses the Front Crawl"
+      "Hana",
+      "Yeol",
+      "A-hop",
+      "Il-gop"
     ],
     "correct": 1,
-    "explanation": "The swimmer with the fastest time is regarded as the champion."
+    "explanation": "Yeol is the Korean word for Ten[cite: 30]."
   },
   {
     "id": 17,
-    "question": "A race that consists of all four swimming strokes is called what (for a single person)?",
+    "question": "What is the Korean term for 'Low Block'?",
     "options": [
-      "Freestyle Relay",
-      "Individual Medley",
-      "Sprint Race",
-      "Long Distance"
+      "Momtong Makki",
+      "Eolgul Makki",
+      "Arae Makki",
+      "Joonbi Seogi"
     ],
-    "correct": 1,
-    "explanation": "The Individual Medley (1 person) consists of a race with all four strokes."
+    "correct": 2,
+    "explanation": "Arae Makki is the term for a Low Block[cite: 34]."
   },
   {
     "id": 18,
-    "question": "What does a Medley Race (4 people) consist of?",
+    "question": "Which block requires moving the fist from the waist toward the shoulder, using the inner side of the wrist?",
     "options": [
-      "Only Freestyle and Backstroke",
-      "Only Butterfly and Breaststroke",
-      "All 4 strokes",
-      "Only the fastest stroke"
+      "High Block",
+      "Middle Block",
+      "Low Block",
+      "Side Block"
     ],
-    "correct": 2,
-    "explanation": "The Medley Race (4 people) consists of a race with all four strokes."
+    "correct": 1,
+    "explanation": "Middle Block (Momtong Makki) involves moving the fist from the waist toward the shoulder and blocking with the inner wrist[cite: 37, 38, 39]."
   },
   {
     "id": 19,
-    "question": "Which of the following is considered the most efficient and common of the swimming strokes used in competition?",
+    "question": "How is a 'High Block' (Eolgul Makki) performed?",
     "options": [
-      "Breaststroke",
-      "Backstroke",
-      "Freestyle",
-      "Butterfly"
+      "Move fist from waist to shoulder",
+      "Ensure defense of the lower body",
+      "Lift forearm up to the height of the forehead",
+      "Step forward with the foot"
     ],
     "correct": 2,
-    "explanation": "Freestyle is the most efficient and common of the swimming strokes used in competition."
+    "explanation": "A High Block is performed by lifting the forearm to the height of the forehead with the back of the hand facing the forehead[cite: 40, 41]."
   },
   {
     "id": 20,
-    "question": "What is the width of an Olympic-sized pool in meters?",
+    "question": "What is the general Korean word for 'Kick'?",
     "options": [
-      "50 meters",
-      "164 feet",
-      "25 meters",
-      "8 lanes"
+      "Makki",
+      "Chagi",
+      "Seogi",
+      "Hana"
     ],
-    "correct": 2,
-    "explanation": "An Olympic-sized pool is 25 meters in width."
+    "correct": 1,
+    "explanation": "Chagi is the Korean word for kick[cite: 43]."
   },
   {
     "id": 21,
-    "question": "The Breaststroke arm movements are described as:",
+    "question": "If you are performing a 'Dollyo Chagi', which kick are you doing?",
     "options": [
-      "Alternate",
-      "Simultaneous",
-      "Winding",
-      "Descending"
+      "Front Kick",
+      "Side Kick",
+      "Turning Side Kick",
+      "Roundhouse Kick"
     ],
-    "correct": 1,
-    "explanation": "Breaststroke is characterized by simultaneous arm movements."
+    "correct": 3,
+    "explanation": "Dollyo Chagi is the Korean term for a Roundhouse Kick[cite: 44]."
   },
   {
     "id": 22,
-    "question": "What is the first set of safety skills that beginners learn in swimming?",
+    "question": "What is the Korean term for a 'Side Kick'?",
     "options": [
-      "Diving",
-      "Flip Turn",
-      "Sculling",
-      "Treading Water"
+      "Ap Chagi",
+      "Yeop Chagi",
+      "Dwi Chagi",
+      "Bandal Chagi"
     ],
-    "correct": 2,
-    "explanation": "Sculling is listed as one of the first safety skills beginners learn."
+    "correct": 1,
+    "explanation": "Yeop Chagi is the Korean term for a Side Kick[cite: 44]."
   },
   {
     "id": 23,
-    "question": "When converting the length of an Olympic-sized pool from meters to feet, what is the length?",
+    "question": "What is the general Korean term for 'Stance'?",
     "options": [
-      "164 feet",
-      "25 feet",
-      "8 feet",
-      "50 feet"
+      "Chagi",
+      "Makki",
+      "Seogi",
+      "Kyukpa"
     ],
-    "correct": 0,
-    "explanation": "An Olympic-sized pool is 50 meters (164 feet) in length."
+    "correct": 2,
+    "explanation": "Seogi is the Korean term for stance[cite: 46]."
   },
   {
     "id": 24,
-    "question": "In the Backstroke, the arm recovers above water from the hip to what position?",
+    "question": "Which stance is known as 'Juchum Seogi'?",
     "options": [
-      "To the chest",
-      "To the hip again",
-      "To overhead",
-      "To the knee"
+      "Ready Stance",
+      "Horseback Riding Stance",
+      "Forward Stance",
+      "Back Stance"
     ],
-    "correct": 2,
-    "explanation": "In the Backstroke, one arm pulls underwater from overhead to the hip, while the other recovers above water from the hip to overhead."
+    "correct": 1,
+    "explanation": "Juchum Seogi is the Horseback Riding Stance[cite: 47]."
   },
   {
     "id": 25,
-    "question": "The Streamline position is designed to maximize what aspect of a swimmer's movement?",
+    "question": "What is the Korean term for the 'Walking Stance'?",
     "options": [
-      "Splashing",
-      "Visibility",
-      "Efficiency",
-      "Treading"
+      "Apbooki Seogi",
+      "Dwitkoobi Seogi",
+      "Ap seogi",
+      "Joonbi Seogi"
     ],
     "correct": 2,
-    "explanation": "Streamline is a body position that minimizes drag and maximizes efficiency."
+    "explanation": "Ap seogi is the Korean term for the Walking Stance[cite: 48]."
   }
 ];
 
