@@ -84,7 +84,9 @@ class QuizApp {
                 'pe-health': 'PE-Health.html',
                 'general-physics': 'General-Physics.html',
                 'philosophy': 'Philosophy.html',
-                'basic-calculus': 'Basic-Calculus.html'
+                'basic-calculus': 'Basic-Calculus.html',
+                'filipino': 'Filipino.html',
+                'general-biology': 'General-Biology.html'
             };
             
             const pageUrl = subjectPageMap[subject];
@@ -109,7 +111,9 @@ class QuizApp {
             'pe-health': 'PE & Health 3',
             'general-physics': 'General Physics 1',
             'philosophy': 'Philosophy',
-            'basic-calculus': 'Basic Calculus'
+            'basic-calculus': 'Basic Calculus',
+            'filipino': 'Filipino',
+            'general-biology': 'General Biology'
         };
 
         const modal = this.createComingSoonModal(subjectNames[subject] || subject);
